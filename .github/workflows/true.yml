@@ -26,10 +26,11 @@ jobs:
       - name: Generate playlist.json
         run: node true.js
 
-      - name: Commit & Push changes
+      - name: Commit playlist
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git trueid_playlist.json
-          git commit -m "auto: update playlist $(date)" || echo "No changes"
+
+          git add trueid_playlist.json
+          git commit -m "update playlist" || echo "no changes"
           git push
