@@ -1,0 +1,45 @@
+name: Sportsonline Scraper
+
+on:
+  schedule:
+   - cron: "0 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ================= CHECKOUT =================
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # ================= NODE =================
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # ================= INSTALL =================
+      - name: Install dependencies
+        run: npm install
+
+      # ================= RUN SCRIPT =================
+      - name: Run scraper
+        run: node st.js
+
+      # ================= COMMIT RESULT =================
+      - name: Commit JSON file
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add playlist/sportsonline.json || true
+          git commit -m "update playlist $(date)" || echo "No changes"
+
+      # ================= PUSH =================
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
