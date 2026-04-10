@@ -12,7 +12,6 @@ async function getTrueIDChannels() {
     ? JSON.parse(res.data)
     : res.data;
 
-  // 🔥 แก้ตรงนี้
   const groups = data.data.channelsList;
 
   let channels = [];
@@ -23,30 +22,15 @@ async function getTrueIDChannels() {
         id: ch.id,
         slug: ch.slug,
         name: ch.title,
-        logo: ch.thumb
+        logo: ch.thumb,
+        category: group.category   // 🔥 เพิ่มตรงนี้
       });
     }
   }
 
-  console.log("✅ เจอ", channels.length, "ช่อง");
+  console.log("✅ เจอทั้งหมด", channels.length, "ช่อง");
 
   return channels;
-}
-
-
-function removeDuplicateChannels(channels) {
-  const seen = new Set();
-
-  return channels.filter(ch => {
-    const key = ch.slug || ch.id;
-
-    if (seen.has(key)) {
-      return false; // ❌ ซ้ำ
-    }
-
-    seen.add(key);
-    return true; // ✅ เก็บไว้
-  });
 }
 
 function saveTrueIDPlaylist(channels) {
