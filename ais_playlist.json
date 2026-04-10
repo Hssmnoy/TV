@@ -2,12 +2,12 @@
   "name": "AIS (M3U8)",
   "author": "update 10/4/2569",
   "image": "https://aisplay.ais.co.th/portal/static/img/ais_play.e9f424a5.png",
-  "url": "",
+  "url": "https://raw.githubusercontent.com/nongakka/TV/main/ais_playlist.json",
   "stations": [
     {
       "name": "NBT 2 HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0001.png",
-      "url": "https://49-231-34-101-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0001/HLS/B0001.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0001&tpbk=KeLMahXB4v3O3Fut&rrt=1775794287&tmod=rfk&rsid=d8895b50-deb6-49ad-8de6-d0d9bb59d004&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0001/HLS/B0001.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0001&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828545&tmod=rfk&rsid=0caf6f50-b435-46f5-b5d5-9711a2cbcb92&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -15,7 +15,7 @@
     {
       "name": "TPBS",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0014.png",
-      "url": "https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0014/HLS/B0014.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0014&tpbk=KeLMahXB4v3O3Fut&rrt=1775794294&tmod=rfk&rsid=2fff1dd9-67a1-4507-9b4f-b188fbc73683&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-101-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0014/HLS/B0014.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0014&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828552&tmod=rfk&rsid=952fef8b-73e7-47b5-aeaa-7fe0ed0ad820&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -23,7 +23,7 @@
     {
       "name": "CH5 HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon//ch5new.logo.png",
-      "url": "https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0007/HLS/B0007.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0007&tpbk=KeLMahXB4v3O3Fut&rrt=1775794299&tmod=rfk&rsid=9750075f-9c35-452f-bbfa-c5430ac88888&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0007/HLS/B0007.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0007&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828558&tmod=rfk&rsid=932cbed6-aa87-4a10-9f04-b5c87ba084f9&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -31,7 +31,7 @@
     {
       "name": "T-Sports 7",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/T-SPorts_7_Final.png",
-      "url": "https://49-231-34-101-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0129/HLS/B0129.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0129&tpbk=KeLMahXB4v3O3Fut&rrt=1775794305&tmod=rfk&rsid=09a09bf1-73e6-4292-b6fd-0e3f5fdcb467&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-109-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0129/HLS/B0129.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0129&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828564&tmod=rfk&rsid=be6cfba1-6b6e-4b57-9380-26df92b1f279&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -39,7 +39,7 @@
     {
       "name": "Parliament",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0048.png",
-      "url": "https://49-231-34-108-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0048/HLS/V0048.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=V0048&tpbk=KeLMahXB4v3O3Fut&rrt=1775794312&tmod=rfk&rsid=e139f609-1bdb-4e34-bcd3-dc985df2735e&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0048/HLS/V0048.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=V0048&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828569&tmod=rfk&rsid=88a0f44e-ed7b-4702-86ad-baa7f90252be&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -47,7 +47,7 @@
     {
       "name": "TNN",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/R2_0053.png",
-      "url": "https://49-231-37-229-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0053/HLS/V0053.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=V0053&tpbk=KeLMahXB4v3O3Fut&rrt=1775794317&tmod=rfk&rsid=dac7f152-edd1-418e-92c8-7f6d43922447&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0053/HLS/V0053.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=V0053&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828575&tmod=rfk&rsid=2c3451ad-862b-4e7f-b244-fd0b3b00ec8b&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -55,7 +55,7 @@
     {
       "name": "Nation TV",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/22_Nation_2025.png",
-      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0021/HLS/B0021.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0021&tpbk=KeLMahXB4v3O3Fut&rrt=1775794323&tmod=rfk&rsid=cedfe764-1466-47bf-b069-a9572e4b879b&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0021/HLS/B0021.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0021&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828581&tmod=rfk&rsid=1fa3190e-d831-4c41-af7b-6069515844c4&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -63,7 +63,7 @@
     {
       "name": "Workpoint TV",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//0015_R.png",
-      "url": "https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0015/HLS/B0015.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0015&tpbk=KeLMahXB4v3O3Fut&rrt=1775794329&tmod=rfk&rsid=06255931-b1c0-47a5-86d5-d19caa6bc9f1&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-229-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0015/HLS/B0015.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0015&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828587&tmod=rfk&rsid=d02a7896-cc24-4c01-93be-97a3c455120e&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -71,7 +71,7 @@
     {
       "name": "True 4 U",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0054.png",
-      "url": "https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0054/HLS/B0054.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0054&tpbk=KeLMahXB4v3O3Fut&rrt=1775794334&tmod=rfk&rsid=dc750d2b-5ad6-4386-88c0-5e6d4781b654&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0054/HLS/B0054.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0054&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828592&tmod=rfk&rsid=0021c51d-4640-4753-928f-ad1226dea9b6&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -79,7 +79,7 @@
     {
       "name": "GMM25",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0019.png",
-      "url": "https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0019/HLS/B0019.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0019&tpbk=KeLMahXB4v3O3Fut&rrt=1775794341&tmod=rfk&rsid=4def71bf-b4d8-4e08-8ac2-b082064fe98c&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0019/HLS/B0019.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0019&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828598&tmod=rfk&rsid=f7b87396-e991-400b-8adc-cc0185cae42b&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -87,7 +87,7 @@
     {
       "name": "CH8",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon//CH8_2026.png",
-      "url": "https://49-231-34-108-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0006/HLS/B0006.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0006&tpbk=KeLMahXB4v3O3Fut&rrt=1775794346&tmod=rfk&rsid=cc4f1179-e93c-47b1-b684-8ee5c17714bd&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0006/HLS/B0006.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0006&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828604&tmod=rfk&rsid=382c6666-8792-4ad8-8d65-20471777c012&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -95,7 +95,7 @@
     {
       "name": "MONO",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/Mono_2025e.png",
-      "url": "https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/W0016/HLS/W0016.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=W0016&tpbk=KeLMahXB4v3O3Fut&rrt=1775794352&tmod=rfk&rsid=8bf812f1-5a0d-4221-bba5-cf5cbe64401e&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/W0016/HLS/W0016.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=W0016&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828609&tmod=rfk&rsid=4d827692-6342-421d-b14a-4a5402a6d2c6&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -103,7 +103,7 @@
     {
       "name": "MCOT HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/MCOT_new.png",
-      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0008/HLS/B0008.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0008&tpbk=KeLMahXB4v3O3Fut&rrt=1775794358&tmod=rfk&rsid=21b9da4e-fc7d-450f-b996-6f7c7a080501&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0008/HLS/B0008.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0008&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828615&tmod=rfk&rsid=90ab0c34-6b33-4f08-9f33-804c62726268&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -111,7 +111,7 @@
     {
       "name": "ONE 31 HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0012.png",
-      "url": "https://49-231-34-109-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0012/HLS/B0012.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0012&tpbk=KeLMahXB4v3O3Fut&rrt=1775794363&tmod=rfk&rsid=5eac4418-ecaa-4047-a1fd-d9ba51526831&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0012/HLS/B0012.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0012&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828621&tmod=rfk&rsid=2d5af812-7f95-4a76-afae-591255c6fa94&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -119,7 +119,7 @@
     {
       "name": "Thairath TV HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0013_R.png",
-      "url": "https://49-231-34-108-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0013/HLS/B0013.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0013&tpbk=KeLMahXB4v3O3Fut&rrt=1775794369&tmod=rfk&rsid=0393b6aa-c040-4c7d-9488-d53aed32d136&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-109-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0013/HLS/B0013.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0013&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828627&tmod=rfk&rsid=f69246d9-fe41-4335-bd2e-aef5ee836c47&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -127,7 +127,7 @@
     {
       "name": "3 HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/LOGO3HD.PNG",
-      "url": "https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0003/HLS/B0003.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0003&tpbk=KeLMahXB4v3O3Fut&rrt=1775794375&tmod=rfk&rsid=255cea73-950e-4ed8-a4e2-f08202ac15d9&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0003/HLS/B0003.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0003&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828632&tmod=rfk&rsid=b735cbfe-a5ef-4779-8c27-0ab0e09eccab&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -135,7 +135,7 @@
     {
       "name": "AmarinTV HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/AmarinTV_NEW512.png",
-      "url": "https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0017/HLS/B0017.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0017&tpbk=KeLMahXB4v3O3Fut&rrt=1775794380&tmod=rfk&rsid=8ba581bd-7588-4e13-9b23-efe1ab0d8076&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0017/HLS/B0017.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0017&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828638&tmod=rfk&rsid=9d158cc0-28c7-48ae-9e31-a4fd2e693991&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -143,7 +143,7 @@
     {
       "name": "CH7 HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0018.png",
-      "url": "https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0018/HLS/B0018.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0018&tpbk=KeLMahXB4v3O3Fut&rrt=1775794386&tmod=rfk&rsid=7dd0df23-5b43-46ba-b8ab-002e3b58fd81&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0018/HLS/B0018.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0018&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828644&tmod=rfk&rsid=3ec0f580-9cdd-4f1d-abd3-9bedefa6e582&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -151,7 +151,7 @@
     {
       "name": "PPTV HD",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/PPTV_2024e.jpg",
-      "url": "https://49-231-34-108-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0022/HLS/B0022.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=B0022&tpbk=KeLMahXB4v3O3Fut&rrt=1775794392&tmod=rfk&rsid=1b8fbbda-2a31-43a2-abd2-40d34e025250&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-108-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/B0022/HLS/B0022.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=B0022&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828649&tmod=rfk&rsid=182dca22-86af-4a76-ae4e-62610d9fcff3&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -159,7 +159,7 @@
     {
       "name": "Boomerang",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/Boomerang_2025.png",
-      "url": "https://49-231-34-101-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0104/HLS/V0104.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=V0104&tpbk=KeLMahXB4v3O3Fut&rrt=1775794397&tmod=rfk&rsid=b3761359-3d65-453c-9d8a-069c19ab2431&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-109-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0104/HLS/V0104.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=V0104&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828655&tmod=rfk&rsid=6ed398df-6256-4a50-b9cf-0a92165a9ec4&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -167,7 +167,7 @@
     {
       "name": "TOP News",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/TOPNEWS.PNG",
-      "url": "https://49-231-37-235-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0033/HLS/V0033.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=V0033&tpbk=KeLMahXB4v3O3Fut&rrt=1775794403&tmod=rfk&rsid=4a4b0a7e-1b1c-4262-86bf-d97422f8fbc1&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-108-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0033/HLS/V0033.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=V0033&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828661&tmod=rfk&rsid=20936684-1f12-4740-842b-1a453305c85f&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -175,7 +175,7 @@
     {
       "name": "News 1",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/0036.png",
-      "url": "https://49-231-37-229-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0036/HLS/V0036.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=V0036&tpbk=KeLMahXB4v3O3Fut&rrt=1775794409&tmod=rfk&rsid=99bf2442-d087-4229-a5e1-268d5a0f3557&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-229-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0036/HLS/V0036.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=V0036&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828666&tmod=rfk&rsid=9c39c5ff-fcb3-49f2-bee7-3bdb0aae8e05&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -183,7 +183,7 @@
     {
       "name": "LunthungTV",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/LunthungTV.PNG",
-      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0092/HLS/V0092.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=V0092&tpbk=KeLMahXB4v3O3Fut&rrt=1775794414&tmod=rfk&rsid=7aa9911a-42df-4d05-a887-ec291bbffdcc&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-34-107-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0092/HLS/V0092.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=V0092&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828672&tmod=rfk&rsid=624042a8-3751-44e4-b9e3-aece6055804f&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
@@ -191,7 +191,7 @@
     {
       "name": "MVTV",
       "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/MVTV.png",
-      "url": "https://49-231-37-236-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0090/HLS/V0090.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=e6093e4a397449ed159f72468b761e0a&chunkHttps=true&tmid=V0090&tpbk=KeLMahXB4v3O3Fut&rrt=1775794420&tmod=rfk&rsid=1bdf8596-2ccf-4cda-a4f7-f56c483774fe&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775880686",
+      "url": "https://49-231-37-237-rewriter.ais-vidnt.com/ais/play/anevia/live/eds/V0090/HLS/V0090.m3u8?playbackUrlPrefix=https%3A%2F%2Ftr.play-rbcdn.ais.co.th%3A8438%2F&originBasicUrl=http%3A%2F%2Fpl-origin.ais-vidnt.com%2Fais%2Fplay%2Fanevia&tt=df1b139ec8a036ec213ed541b649df2d&chunkHttps=true&tmid=V0090&tpbk=4uZOjKPMmZP7HTP1&rrt=1775828678&tmod=rfk&rsid=d1dd0712-a9b7-4708-bf62-c37636ae3b74&tuid=09194712d8&cdn=redfox-https&tdid=8d2174919041f976a214a5ad8a720a8f&origin=anevia&tfa=f0-fc&tttl=1775914944",
       "referer": "https://49-231-34-108-rewriter.ais-vidnt.com/",
       "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
       "playInNatPlayer": "true"
