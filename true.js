@@ -2,7 +2,7 @@ const axios = require("axios");
 const fs = require("fs");
 
 async function getTrueIDChannels() {
-  console.log("📡 โหลด TRUEID จาก GitHub...");
+  console.log("📡 โหลด TRUEID...");
 
   const url = "https://raw.githubusercontent.com/nongakka/TV/main/true_chanel.json";
 
@@ -23,7 +23,7 @@ async function getTrueIDChannels() {
         slug: ch.slug,
         name: ch.title,
         logo: ch.thumb,
-        category: group.category   // 🔥 เพิ่มตรงนี้
+        category: ch.category // ✔ ใช้ตรงนี้เท่านั้น
       });
     }
   }
