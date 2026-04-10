@@ -47,7 +47,7 @@ function removeDuplicateChannels(channels) {
 }
 
 function filterCategories(channels) {
-  const allow = new Set(["digitaltv-ca", "freetv-ca"]);
+  const allow = new Set(["digitaltv-ca"]);
 
   return channels.filter(ch => {
     if (!ch.category) return false;
