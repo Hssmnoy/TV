@@ -81,7 +81,13 @@ function saveTrueIDPlaylist(channels) {
     }))
   };
 
-  fs.writeFileSync("trueid_playlist.json", JSON.stringify(output, null, 2));
+  const path = require("path");
+
+const filePath = path.join(__dirname, "trueid_playlist.json");
+
+fs.writeFileSync(filePath, JSON.stringify(output, null, 2));
+
+console.log("💾 saved:", filePath);
 
   console.log("💾 saved: trueid_playlist.json");
 }
