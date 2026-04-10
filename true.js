@@ -33,6 +33,19 @@ async function getTrueIDChannels() {
   return channels;
 }
 
+function removeDuplicateChannels(channels) {
+  const seen = new Set();
+
+  return channels.filter(ch => {
+    const key = ch.slug || ch.id;
+
+    if (seen.has(key)) return false;
+
+    seen.add(key);
+    return true;
+  });
+}
+
 function filterCategories(channels) {
   const allow = new Set([
     "digitaltv-ca",
