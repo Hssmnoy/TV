@@ -1,27 +1,4 @@
-{
-    "data": {
-        "categories": [
-            {
-                "title": "ช่องทั้งหมด",
-                "title_en": "All Channels",
-                "catSlug": "TrueID : All",
-                "title_logo": "",
-                "shelf_code": "vdd78mEQYEv",
-                "id": "vdd78mEQYEv"
-            },
-            {
-                "title": "ดิจิตอลทีวี",
-                "title_en": "Digital TV",
-                "catSlug": "wy8Lq8oj0zYy",
-                "title_logo": "",
-                "shelf_code": "wy8Lq8oj0zYy",
-                "id": "wy8Lq8oj0zYy"
-            }
-        ],
-        "channelsList": [
-            {
-                "title": "TrueID : All",
-                "channels": [
+        
                     {
                         "id": "nQlqONGyoa4",
                         "thumb": "https://cms.dmpcdn.com/livetv/2023/07/24/5ff3e270-29cc-11ee-b2f4-e9de482d866e_webp_original.webp",
@@ -837,28 +814,7 @@
                 ],
                 "catSlug": "wy8Lq8oj0zYy"
             },
-            {
-                "title": "TrueID: Education",
-                "channels": [
-                    {
-                        "id": "9xQq7Yk7Jzr",
-                        "thumb": "https://cms.dmpcdn.com/livetv/2023/07/18/7d74eda0-2515-11ee-864f-a52221dad038_webp_original.webp",
-                        "slug": "realitychannel-hd",
-                        "title": "สามเณรปลูกปัญญาธรรม",
-                        "content_type": "livetv",
-                        "category": "livetv-ca|education-ca|freetv-ca|kids-ca|truelittlemonk|tvsnow|documentary|kids",
-                        "content_provider": "true_vision",
-                        "channel_code": "107",
-                        "content_rights": null,
-                        "channel_info": {
-                            "channel_name_cbd": "ប៉ុស្តិ៍ រែលអាលីធី",
-                            "channel_name_eng": "True Little Monk Reality",
-                            "channel_name_mm": "ထရူး ပူပန္ယာ",
-                            "channel_name_th": "สามเณรปลูกปัญญาธรรม"
-                        },
-                        "views": 202,
-                        "isLiveChat": false
-                    },
+            
                     {
                         "id": "2Q7NXepzXwny",
                         "thumb": "https://cms.dmpcdn.com/livetv/2025/09/16/087fdc60-92f7-11f0-96e6-0db8621794b2_webp_original.webp",
@@ -1562,9 +1518,5 @@
                         "views": 3,
                         "isLiveChat": false
                     }
-                ],
-                "catSlug": "YBqxpdqGeJv"
-           }
-        ]
-    }
-}
+            
+       
