@@ -4,7 +4,7 @@ const puppeteer = require("puppeteer");
 const cheerio = require("cheerio");
 
 // ================= CONFIG =================
-const PROG_URL = "https://sportsonline.st/prog.txt";
+const PROG_URL = "https://sportsonline.vc/prog.txt";
 
 const SAVE_DIR = "playlist";
 const SAVE_FILE = `${SAVE_DIR}/sportsonline.json`;
@@ -254,7 +254,7 @@ groups[key].stations.push({
   .trim()}`,
   image: logo,
   url: item.url,
-  referer: "https://sportsonline.st/",
+  referer: "https://sportsonline.vc/",
   info: info, // ⭐ ดึงจาก URL จริง
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
