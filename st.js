@@ -116,7 +116,7 @@ async function processAndFetchDates(text) {
       const dt = new Date(matchDate);
       dt.setHours(h, m);
 
-      const thai = new Date(dt.getTime() + 7 * 60 * 60 * 1000);
+      const thai = new Date(dt.getTime() + 6 * 60 * 60 * 1000);
 
       const dateKey = thai.toISOString().split("T")[0];
       datesToScrape.add(dateKey);
