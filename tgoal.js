@@ -1,14 +1,22 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-function getDate(offset = 0) {
-  const d = new Date();
-  d.setDate(d.getDate() + offset);
-  return d.toISOString().split("T")[0] + "T00:00:00+07:00";
+const delay = (ms) => new Promise(r => setTimeout(r, ms));
+
+function toTime(ts) {
+  return new Date(ts).toLocaleTimeString("th-TH", {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function toThaiDate(ts) {
+  const d = new Date(ts);
+  return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
 }
 
 (async () => {
-  console.log("🚀 FINAL NETWORK MODE");
+  console.log("🚀 FINAL CLICK MODE");
 
   const browser = await puppeteer.launch({
     headless: "new",
@@ -21,62 +29,62 @@ function getDate(offset = 0) {
 
   const page = await browser.newPage();
 
+  await page.setUserAgent(
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36"
+  );
+
   await page.goto("https://www.thai-goal.com/livestream/schedule", {
     waitUntil: "networkidle2",
   });
 
-  const results = [];
+  // 🔥 รอ calendar แบบ retry (กัน CI render ช้า)
+  let days = 0;
+  for (let i = 0; i < 10; i++) {
+    days = await page.$$eval(".flatDateItem", els => els.length);
+    console.log("📅 Try:", i + 1, "found:", days);
+    if (days > 0) break;
+    await delay(2000);
+  }
 
-  for (let i = 0; i < 5; i++) {
-    const date = getDate(i);
+  if (days === 0) {
+    throw new Error("❌ Calendar not rendered (CI blocked)");
+  }
 
-    console.log("📅 Fetch:", date);
+  const limit = Math.min(days, 5);
+  const allDaysData = [];
 
-    const data = await new Promise(async (resolve, reject) => {
-      const timeout = setTimeout(() => {
-        reject(new Error("timeout"));
-      }, 30000);
+  for (let i = 0; i < limit; i++) {
+    console.log(`👉 Click day ${i + 1}`);
 
-      const listener = async (response) => {
-        try {
-          const url = response.url();
+    const responsePromise = page.waitForResponse(res =>
+      res.url().includes("/schedule/match") &&
+      res.request().method() === "GET"
+    , { timeout: 30000 });
 
-          if (
-            url.includes("/schedule/match") &&
-            url.includes("currentDate=" + encodeURIComponent(date).split("%")[0])
-          ) {
-            const json = await response.json();
-            page.off("response", listener);
-            clearTimeout(timeout);
-            resolve(json);
-          }
-        } catch (e) {}
-      };
+    await page.evaluate((index) => {
+      document.querySelectorAll(".flatDateItem")[index]?.click();
+    }, i);
 
-      page.on("response", listener);
+    const res = await responsePromise;
+    const json = await res.json();
 
-      // trigger request
-      await page.evaluate((d) => {
-        window.__DATE__ = d;
-        location.reload();
-      }, date);
-    });
+    allDaysData.push(json);
 
-    results.push(data);
+    console.log(`✅ GOT DAY ${i + 1}`);
+    await delay(2000);
   }
 
   // =====================
-  // BUILD OUTPUT
+  // BUILD DATA
   // =====================
   const byDay = {};
 
-  for (const day of results) {
+  for (const day of allDaysData) {
     const leagues = day?.data || [];
 
     for (const league of leagues) {
       for (const m of league.scheduledLiveStreamMatches || []) {
-        const d = new Date(m.matchStartTime);
-        const key = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
+        const key = toThaiDate(m.matchStartTime);
 
         if (!byDay[key]) byDay[key] = [];
 
@@ -96,21 +104,16 @@ function getDate(offset = 0) {
     name: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
     author: "Thai-goal",
     info: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
-    image:
-      "https://media.dolive666.cc/bmo/brand/textLogo/1.webp",
+    image: "https://media.dolive666.cc/bmo/brand/textLogo/1.webp",
     groups: [],
   };
 
   for (const dayKey of Object.keys(byDay)) {
     playlist.groups.push({
       name: dayKey,
-      image:
-        "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
-      stations: byDay[dayKey].map((m) => ({
-        name: `${new Date(m.time).toLocaleTimeString("th-TH", {
-          hour: "2-digit",
-          minute: "2-digit",
-        })} ${m.home} vs ${m.away}`,
+      image: "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      stations: byDay[dayKey].map(m => ({
+        name: `${toTime(m.time)} ${m.home} vs ${m.away}`,
         info: m.league,
         image: m.logo,
         url: `https://www.thai-goal.com/th/watch-live-football/${m.id}`,
@@ -120,7 +123,7 @@ function getDate(offset = 0) {
     });
   }
 
-  fs.writeFileSync("playlist_tgoal.json", JSON.stringify(playlist, null, 2));
+  fs.writeFileSync("playlist_tg.json", JSON.stringify(playlist, null, 2));
 
   console.log("🎉 DONE");
   await browser.close();
