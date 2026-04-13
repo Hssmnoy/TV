@@ -23,7 +23,7 @@ function toThaiDate(ts) {
   let browser;
 
   try {
-    console.log("🌐 Starting browser...");
+    console.log("🚀 Start browser...");
 
     browser = await puppeteer.launch({
       headless: "new",
@@ -36,36 +36,72 @@ function toThaiDate(ts) {
     });
 
     const page = await browser.newPage();
-    page.setDefaultTimeout(60000);
 
-    console.log("🔄 Loading page...");
-
-    await page.goto(
-      "https://www.thai-goal.com/livestream/schedule",
-      { waitUntil: "domcontentloaded" }
+    // =========================
+    // 🧠 ANTI BOT DETECTION
+    // =========================
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
     );
 
-    // 🔥 สำคัญมาก: ให้ JS render เสร็จก่อน
-    await delay(8000);
+    await page.setViewport({ width: 1366, height: 768 });
 
-    console.log("⏳ Waiting for calendar...");
-
-    await page.waitForSelector(".flatDateItem", {
-      timeout: 60000
+    await page.evaluateOnNewDocument(() => {
+      Object.defineProperty(navigator, "webdriver", {
+        get: () => false,
+      });
     });
 
-    const days = await page.evaluate(() =>
-      document.querySelectorAll(".flatDateItem").length
-    );
+    console.log("🌐 Loading page...");
 
-    console.log("📅 Days found:", days);
+    await page.goto("https://www.thai-goal.com/livestream/schedule", {
+      waitUntil: "domcontentloaded",
+      timeout: 60000,
+    });
+
+    // =========================
+    // 🔥 WAIT FOR RENDER (SAFE)
+    // =========================
+    await delay(10000);
+
+    console.log("🔍 Checking calendar...");
+
+    // 🔥 retry loop แทน waitForSelector
+    let days = 0;
+
+    for (let i = 0; i < 5; i++) {
+      days = await page.evaluate(() => {
+        return document.querySelectorAll("[class*='flat'], [class*='date']").length;
+      });
+
+      console.log(`📅 Try ${i + 1}: found ${days}`);
+
+      if (days > 0) break;
+
+      await delay(3000);
+    }
+
+    // =========================
+    // ❌ NO DATA → DEBUG MODE
+    // =========================
+    if (!days || days === 0) {
+      console.log("❌ Calendar not found → saving debug.html");
+
+      const html = await page.content();
+      fs.writeFileSync("debug.html", html);
+
+      throw new Error("Calendar not rendered in CI (bot detected or layout changed)");
+    }
 
     const limit = Math.min(days, 5);
+
+    console.log("📅 Using days:", limit);
+
     const allDaysData = [];
 
     for (let i = 0; i < limit; i++) {
 
-      console.log(`👉 Clicking day ${i + 1}`);
+      console.log(`👉 Click day ${i + 1}`);
 
       let json = null;
 
@@ -76,15 +112,17 @@ function toThaiDate(ts) {
         , { timeout: 20000 });
 
         await page.evaluate((index) => {
-          const els = document.querySelectorAll(".flatDateItem");
+          const els = document.querySelectorAll("[class*='flat'], [class*='date']");
           els[index]?.click();
         }, i);
 
         const res = await waitResponse;
         json = await res.json();
 
+        console.log("✅ API OK");
+
       } catch (err) {
-        console.log("⚠️ API not captured, fallback DOM extract");
+        console.log("⚠️ Fallback DOM mode");
 
         json = await page.evaluate(() => {
           return { data: [] };
@@ -93,12 +131,12 @@ function toThaiDate(ts) {
 
       allDaysData.push(json);
 
-      await delay(1500);
+      await delay(2000);
     }
 
-    // ===============================
+    // =========================
     // BUILD DATA
-    // ===============================
+    // =========================
     const byDay = {};
 
     for (const day of allDaysData) {
@@ -124,14 +162,12 @@ function toThaiDate(ts) {
       }
     }
 
-    // ===============================
+    // =========================
     // OUTPUT
-    // ===============================
+    // =========================
     const playlist = {
       name: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
       author: "Thai-goal",
-      info: "auto scraper",
-      image: "https://media.dolive666.cc/bmo/brand/textLogo/1.webp",
       groups: []
     };
 
@@ -141,7 +177,6 @@ function toThaiDate(ts) {
 
       const group = {
         name: dayKey,
-        image: "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
         stations: []
       };
 
@@ -167,7 +202,7 @@ function toThaiDate(ts) {
     console.log("📦 Groups:", playlist.groups.length);
 
   } catch (err) {
-    console.error("❌ Fatal error:", err);
+    console.error("❌ ERROR:", err);
     process.exit(1);
 
   } finally {
