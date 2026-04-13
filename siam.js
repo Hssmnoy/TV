@@ -31,9 +31,15 @@ function thaiDate(date) {
     const url = `https://www.siamsport.co.th/football-program/${formatDate(date)}/`;
     console.log("📅", url);
 
-    await page.goto(url, { waitUntil: "domcontentloaded" });
-
-    const stations = await page.evaluate(() => {
+    try {
+  await page.goto(url, {
+    waitUntil: "domcontentloaded",
+    timeout: 60000
+  });
+} catch (err) {
+  console.log("❌ โหลดหน้าไม่ได้:", url);
+  continue; // ข้ามวันนั้นไปเลย
+}
       const result = [];
 
       document.querySelectorAll(".bg-light").forEach(section => {
