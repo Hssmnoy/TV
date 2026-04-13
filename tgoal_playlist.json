@@ -1,0 +1,414 @@
+{
+  "name": "Thai-goal @13/4/2569",
+  "author": "Thai-goal",
+  "info": "Thai-goal @13/4/2569",
+  "image": "https://media.dolive666.cc/bmo/brand/textLogo/1.webp",
+  "groups": [
+    {
+      "name": "13/4/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "21:45 อัล เรอาด vs อัล-ดูฮาอิล SC",
+          "info": "เอเอฟซี แชมเปียนส์ลีก เอลีท",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/960950",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "18:35 จี๋หลิน นอร์ทอีส ไทเกอร์ vs หนานจิงถงซี มังกี้คิง",
+          "info": "สมาคมบาสเกตบอลจีน",
+          "image": "https://cdn.sportnanoapi.com/basketball/competition/36660e389d505b7a95c1bf4a3da3e384.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/952772",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "18:35 เสฉวน บลูเวลส์ vs Shenzhen Leopards",
+          "info": "สมาคมบาสเกตบอลจีน",
+          "image": "https://cdn.sportnanoapi.com/basketball/competition/36660e389d505b7a95c1bf4a3da3e384.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/952774",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "18:35 ฝูเจี้ยน สเตอร์เจี้ยน vs เจ้อเจียง โกลเด้น บูลส์",
+          "info": "สมาคมบาสเกตบอลจีน",
+          "image": "https://cdn.sportnanoapi.com/basketball/competition/36660e389d505b7a95c1bf4a3da3e384.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/952776",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    },
+    {
+      "name": "14/4/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "01:00 อัล ฮิลาล vs อัล ซาดด์",
+          "info": "เอเอฟซี แชมเปียนส์ลีก เอลีท",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/960949",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 ฟิออเรนติน่า vs ลาซิโอ",
+          "info": "อิตาลี - เซเรีย A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/6b38f4015a6b3309ad9462e6ce27ae99.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/951427",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 เลบานเต้ ยูดี vs เกตาเฟ่",
+          "info": "สเปน - ลา ลีก้า",
+          "image": "https://cdn.sportnanoapi.com/football/competition/5e1b2629744b07c53f6d6c032475078a.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/949710",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 แมนเชสเตอร์ ยูไนเต็ด vs ลีดส์ ยูไนเต็ด",
+          "info": "อังกฤษ - พรีเมียร์ ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/d3cd84441d4de605d84a14521ef56920.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/952793",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:00 โปแลนด์ (ญ) vs ไอร์แลนด์ (ญ)",
+          "info": "FIFA Women World Cup Europe Qualifiers League A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/45c47fad4b3de71014c5173e34430fcc.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/953743",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:00 นอร์เวย์ (ญ) vs สโลวีเนีย (ญ)",
+          "info": "FIFA Women World Cup Europe Qualifiers League A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/45c47fad4b3de71014c5173e34430fcc.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/953747",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:15 เซอร์เบีย (ญ) vs อิตาลี (ญ)",
+          "info": "FIFA Women World Cup Europe Qualifiers League A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/45c47fad4b3de71014c5173e34430fcc.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/953741",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:15 เยอรมนี (ญ) vs ออสเตรีย (ญ)",
+          "info": "FIFA Women World Cup Europe Qualifiers League A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/45c47fad4b3de71014c5173e34430fcc.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/953746",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    },
+    {
+      "name": "15/4/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "02:00 แอตเลติโก มาดริด vs บาร์เซโลนา",
+          "info": "ยูฟ่าแชมเปียนส์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/ac05535bde17129cb598311242b3afba.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955093",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 ลิเวอร์พูล vs ปารีส แซงต์ แชร์กแมง",
+          "info": "ยูฟ่าแชมเปียนส์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/ac05535bde17129cb598311242b3afba.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955094",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "17:30 วุลซาน ฮุนได vs เอฟซี โซล",
+          "info": "เกาหลีใต้ - เค-ลีก 1",
+          "image": "https://cdn.sportnanoapi.com/football/competition/c080bb97363f9be7ca4fca327c56ec0d.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/918749",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "19:15 แบงค็อก ยูไนเต็ด vs กัมบะ โอซากา",
+          "info": "เอเอฟซี แชมเปียนส์ลีก 2",
+          "image": "https://cdn.sportnanoapi.com/football/competition/9a22d840df32761c127c5cd106203ccf.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/954496",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 สวีเดน (ญ) vs เดนมาร์ก (ญ)",
+          "info": "FIFA Women World Cup Europe Qualifiers League A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/45c47fad4b3de71014c5173e34430fcc.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/953740",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 เนเธอร์แลนด์ (ญ) vs ฝรั่งเศส (ญ)",
+          "info": "FIFA Women World Cup Europe Qualifiers League A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/45c47fad4b3de71014c5173e34430fcc.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/953742",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:30 สกอตแลนด์ (ญ) vs เบลเยียม (ญ)",
+          "info": "ฟุตบอลโลกโซนยุโรป - ลีกผู้หญิง (รอบคัดเลือก)",
+          "image": "https://cdn.sportnanoapi.com/football/competition/45c47fad4b3de71014c5173e34430fcc.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/953754",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 โบลตัน vs สตีฟเนจ",
+          "info": "อังกฤษ - ลีก 1",
+          "image": "https://cdn.sportnanoapi.com/football/competition/89d1cc40d46c553cb311b8220bfa3d5d.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/936814",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 ฮัดเดอร์ฟิลด์ ทาวน์ vs คาร์ดิฟฟ์ ซิตี",
+          "info": "อังกฤษ - ลีก 1",
+          "image": "https://cdn.sportnanoapi.com/football/competition/89d1cc40d46c553cb311b8220bfa3d5d.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/936824",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:00 โบคา จูเนียร์ส vs บาร์เซโลน่า",
+          "info": "โกปาลิเบร์ตาโดเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/59bd81b686fe94b57f0e3c3ff2a28c45.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/957539",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "08:00 ครูซ อาซูล vs ลอสแอนเจลิส เอฟซี",
+          "info": "CONCACAF แชมเปียนส์คัพ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/8ac65db4e291e627ff63c21397d8b577.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955679",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "10:30 คลับ อเมริกา vs แนชวิลล์ เอสซี",
+          "info": "CONCACAF แชมเปียนส์คัพ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/8ac65db4e291e627ff63c21397d8b577.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955680",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    },
+    {
+      "name": "16/4/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "02:00 อาร์เซนอล vs สปอร์ติ้ง ลิสบอน",
+          "info": "ยูฟ่าแชมเปียนส์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/ac05535bde17129cb598311242b3afba.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/954665",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 บาร์เยิร์น มิวนิค vs เรอัล มาดริด",
+          "info": "ยูฟ่าแชมเปียนส์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/ac05535bde17129cb598311242b3afba.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955092",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:45 เซลต้า บีโก้ vs ไฟร์บวร์ก",
+          "info": "ยูฟ่า ยูโรปา ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/1792ba5a12171fedc6d543bdf173f37c.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955886",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:30 ฟลูมิเนนเซ เอฟซี vs อินดิเพนเดียนเต้ ริวาดาเวีย",
+          "info": "โกปาลิเบร์ตาโดเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/59bd81b686fe94b57f0e3c3ff2a28c45.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/957529",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:30 อิสโปร์ชีกลูบีโกริงชังส์เปาลิสตา vs Independiente Santa Fe",
+          "info": "โกปาลิเบร์ตาโดเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/59bd81b686fe94b57f0e3c3ff2a28c45.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/957530",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "08:00 ลอสแอนเจลิส กาแลคซี่ vs เดพอร์ทติโว โตลูก้า",
+          "info": "CONCACAF แชมเปียนส์คัพ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/8ac65db4e291e627ff63c21397d8b577.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955946",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "10:30 ซีแอตเทิ่ล ซาวเดอร์ส vs ติเกรส์ ยูเอเอ็นแอล",
+          "info": "CONCACAF แชมเปียนส์คัพ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/8ac65db4e291e627ff63c21397d8b577.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/957298",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:45 อาแซด อัลค์มาร์ vs ชักตาร์ โดเน็ตส์ก",
+          "info": "UEFA Conference League",
+          "image": "https://cdn.sportnanoapi.com/football/competition/88637a74a2cbd634b8b9504a60d711cd.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955898",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    },
+    {
+      "name": "17/4/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "02:00 เรอัล เบติส vs บราก้า",
+          "info": "ยูฟ่า ยูโรปา ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/1792ba5a12171fedc6d543bdf173f37c.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955890",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 น็อตติ้งแฮม ฟอเรสต์ vs เอฟซี ปอร์โต้",
+          "info": "ยูฟ่า ยูโรปา ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/1792ba5a12171fedc6d543bdf173f37c.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955901",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 แอสตัน วิลล่า vs โบโลญญ่า",
+          "info": "ยูฟ่า ยูโรปา ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/1792ba5a12171fedc6d543bdf173f37c.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955902",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "16:35 เมลเบิร์น วิคตอรี่ vs นิวคาสเซิล เจ็ทส์",
+          "info": "เอลีก ออสเตรเลีย",
+          "image": "https://cdn.sportnanoapi.com/football/competition/76722a157176d354a952c671bb46cc7e.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955490",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "18:35 ซานตง ลู่เนิ่ง vs เซี่ยงไฮ้ พอร์ท เอฟซี",
+          "info": "จีน - ซูเปอร์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/c60b352d3201d8be0410c7760cd66c99.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955585",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "19:00 หางโจว กรีนทาวน์ vs ปักกิ่ง กั๋วอัน",
+          "info": "จีน - ซูเปอร์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/c60b352d3201d8be0410c7760cd66c99.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955587",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "19:00 หวู่ฮั่น ทรีทาวน์ vs เฉิงตู ซินเฉิง",
+          "info": "จีน - ซูเปอร์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/c60b352d3201d8be0410c7760cd66c99.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955588",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "19:00 สโมสรฟุตบอลยูซี ยูคุน vs เทียนจิน จินเหมิน ไทเกอร์ เอฟซี",
+          "info": "จีน - ซูเปอร์ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/c60b352d3201d8be0410c7760cd66c99.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955589",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:30 ซาสซูโอโล่ vs โคโม",
+          "info": "อิตาลี - เซเรีย A",
+          "image": "https://cdn.sportnanoapi.com/football/competition/6b38f4015a6b3309ad9462e6ce27ae99.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/957743",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 ปีเตอร์โบโร่ ยูไนเต็ด vs พอร์ทเวล",
+          "info": "อังกฤษ - ลีก 1",
+          "image": "https://cdn.sportnanoapi.com/football/competition/89d1cc40d46c553cb311b8220bfa3d5d.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/918072",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 ฟิออเรนติน่า vs คริสตัล พาเลซ เอฟซี",
+          "info": "UEFA Conference League",
+          "image": "https://cdn.sportnanoapi.com/football/competition/88637a74a2cbd634b8b9504a60d711cd.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955887",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 AEK เอเทนส์ vs ราโย่ บาเยกาโน่",
+          "info": "UEFA Conference League",
+          "image": "https://cdn.sportnanoapi.com/football/competition/88637a74a2cbd634b8b9504a60d711cd.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955894",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 สตารส์บูร์ก vs ไมนต์",
+          "info": "UEFA Conference League",
+          "image": "https://cdn.sportnanoapi.com/football/competition/88637a74a2cbd634b8b9504a60d711cd.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/955895",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 พัลไมรัส vs สปอร์ติ้ง คริสตัล",
+          "info": "โกปาลิเบร์ตาโดเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/59bd81b686fe94b57f0e3c3ff2a28c45.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/957531",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:30 คลับ เดเรกาตาส โดฟลาเมงโก vs อินเดียเพน เมดเดอร์ลิน",
+          "info": "โกปาลิเบร์ตาโดเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/59bd81b686fe94b57f0e3c3ff2a28c45.png",
+          "url": "https://www.thai-goal.com/th/watch-live-football/957526",
+          "referer": "https://www.thai-goal.com/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    }
+  ]
+}
