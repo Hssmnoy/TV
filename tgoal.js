@@ -152,11 +152,11 @@ function toThaiDate(ts) {
     playlist.groups.push(dayGroup);
   }
 
-  fs.writeFileSync("playlist.json", JSON.stringify(playlist, null, 2));
+  fs.writeFileSync("tgoal.json", JSON.stringify(playlist, null, 2));
 
   console.log("🎉 DONE!");
   console.log("📦 Days:", playlist.groups.length);
-  console.log("💾 Saved: playlist.json");
+  console.log("💾 Saved: tgoal.json");
 
   await browser.close();
 
