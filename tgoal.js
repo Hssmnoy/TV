@@ -3,6 +3,9 @@ const fs = require("fs");
 
 const delay = (ms) => new Promise(r => setTimeout(r, ms));
 
+// =====================
+// เวลา/วัน
+// =====================
 function toTime(ts) {
   return new Date(ts).toLocaleTimeString("th-TH", {
     hour: "2-digit",
@@ -21,7 +24,7 @@ function toThaiDate(ts) {
 
 (async () => {
 
-  console.log("🌐 Starting browser...");
+  console.log("🚀 START");
 
   const browser = await puppeteer.launch({
     headless: "new",
@@ -36,57 +39,85 @@ function toThaiDate(ts) {
 
   page.setDefaultTimeout(60000);
 
-  console.log("🔄 Loading page...");
+  // =====================
+  // LOAD PAGE (FIXED)
+  // =====================
+  await page.goto(
+    "https://www.thai-goal.com/livestream/schedule",
+    { waitUntil: "domcontentloaded" }
+  );
 
-  await page.goto("https://www.thai-goal.com/livestream/schedule", {
-    waitUntil: "domcontentloaded",
-    timeout: 60000
-  });
-
-  // 🔥 FIX 1: CI ต้องรอนานกว่า PC
   await delay(8000);
 
-  // 🔥 FIX 2: กัน selector ไม่มา
-  await page.waitForSelector(".flatDateItem", { timeout: 60000 });
+  // =====================
+  // RETRY FIND DAYS (CI SAFE)
+  // =====================
+  let days = 0;
 
-  const days = await page.$$eval(".flatDateItem", els => els.length);
+  for (let i = 0; i < 10; i++) {
+    days = await page.$$eval(".flatDateItem", els => els.length).catch(() => 0);
+    if (days > 0) break;
+    await delay(2000);
+  }
+
+  if (!days) {
+    throw new Error("❌ NO .flatDateItem (CI blocked or render fail)");
+  }
+
   const limit = Math.min(days, 5);
-
   console.log("📅 Days:", days, "➡️ Using:", limit);
 
   const allDaysData = [];
 
+  // =====================
+  // GLOBAL RESPONSE LISTENER (FIX CORE)
+  // =====================
+  let lastJson = null;
+
+  page.on("response", async (res) => {
+    try {
+      if (
+        res.url().includes("/schedule/match") &&
+        res.request().method() === "GET"
+      ) {
+        const text = await res.text();
+        if (text.startsWith("{")) {
+          lastJson = JSON.parse(text);
+        }
+      }
+    } catch {}
+  });
+
+  // =====================
+  // LOOP DAYS
+  // =====================
   for (let i = 0; i < limit; i++) {
 
-    console.log(`👉 Clicking day ${i + 1}`);
-
-    // 🔥 FIX 3: กัน race condition
-    const waitResponse = page.waitForResponse(res =>
-      res.url().includes("/schedule/match") &&
-      res.request().method() === "GET",
-      { timeout: 30000 }
-    );
+    console.log(`👉 DAY ${i + 1}`);
 
     await page.evaluate((index) => {
-      const els = document.querySelectorAll(".flatDateItem");
-      els[index]?.click();
+      document.querySelectorAll(".flatDateItem")[index]?.click();
     }, i);
 
-    // 🔥 FIX 4: sync + delay fallback
-    const [res] = await Promise.all([
-      waitResponse,
-      delay(2000)
-    ]);
+    // wait data instead of waitForResponse
+    for (let t = 0; t < 40; t++) {
+      if (lastJson) break;
+      await delay(500);
+    }
 
-    const json = await res.json();
-    allDaysData.push(json);
+    if (!lastJson) {
+      throw new Error("❌ NO API RESPONSE (CI slow or blocked)");
+    }
 
-    console.log(`✅ GOT DAY ${i + 1}`);
+    allDaysData.push(lastJson);
+    lastJson = null;
+
+    await delay(1500);
   }
 
-  // =========================================================
-  // 🧠 BUILD PLAYLIST (UNCHANGED)
-  // =========================================================
+  // =====================
+  // BUILD DATA
+  // =====================
   const byDay = {};
 
   for (const day of allDaysData) {
@@ -116,6 +147,9 @@ function toThaiDate(ts) {
     }
   }
 
+  // =====================
+  // OUTPUT
+  // =====================
   const playlist = {
     name: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
     author: "Thai-goal",
@@ -157,7 +191,7 @@ function toThaiDate(ts) {
 
   fs.writeFileSync("playlist.json", JSON.stringify(playlist, null, 2));
 
-  console.log("🎉 DONE!");
+  console.log("🎉 DONE");
   console.log("📦 Days:", playlist.groups.length);
   console.log("💾 Saved: playlist.json");
 
