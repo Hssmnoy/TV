@@ -15,14 +15,22 @@ function thaiDate(date) {
 
 (async () => {
   const browser = await puppeteer.launch({
-  headless: "new",
-  args: [
-    "--no-sandbox",
-    "--disable-setuid-sandbox",
-    "--disable-dev-shm-usage",
-    "--disable-gpu"
-  ]
-});
+    headless: "new",
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu"
+    ]
+  });
+
+  const page = await browser.newPage();
+
+  await page.setUserAgent(
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+  );
+
+  const groups = [];
 
   for (let i = 0; i < 3; i++) {
     const date = new Date();
@@ -32,14 +40,19 @@ function thaiDate(date) {
     console.log("📅", url);
 
     try {
-  await page.goto(url, {
-    waitUntil: "domcontentloaded",
-    timeout: 60000
-  });
-} catch (err) {
-  console.log("❌ โหลดหน้าไม่ได้:", url);
-  continue; // ข้ามวันนั้นไปเลย
-}
+      await page.goto(url, {
+        waitUntil: "domcontentloaded",
+        timeout: 60000
+      });
+
+      await page.waitForSelector(".bg-light", { timeout: 15000 }).catch(() => {});
+    } catch (err) {
+      console.log("❌ โหลดไม่ได้:", url);
+      continue;
+    }
+
+    // ✅ สำคัญ: ดึงข้อมูลใน browser context
+    const stations = await page.evaluate(() => {
       const result = [];
 
       document.querySelectorAll(".bg-light").forEach(section => {
@@ -50,12 +63,9 @@ function thaiDate(date) {
           const time = match.querySelector(".col-2 span")?.innerText.trim();
           const home = match.querySelector(".col-5:first-child span")?.innerText.trim();
           const away = match.querySelector(".col-5:last-child span")?.innerText.trim();
-
-          // 🔴 ดึงช่องถ่ายทอด
           const channel = match.querySelector(".badge")?.innerText.trim();
 
           if (time && home && away) {
-            // 🔥 รวม channel เข้า info
             const infoText = channel
               ? `${league} | ${channel}`
               : league;
