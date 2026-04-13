@@ -14,10 +14,15 @@ function thaiDate(date) {
 }
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: "new" });
-  const page = await browser.newPage();
-
-  const groups = [];
+  const browser = await puppeteer.launch({
+  headless: "new",
+  args: [
+    "--no-sandbox",
+    "--disable-setuid-sandbox",
+    "--disable-dev-shm-usage",
+    "--disable-gpu"
+  ]
+});
 
   for (let i = 0; i < 3; i++) {
     const date = new Date();
