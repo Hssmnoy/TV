@@ -39,14 +39,14 @@ function toThaiDate(ts) {
   console.log("🔄 Loading page...");
 
   await page.goto("https://www.thai-goal.com/livestream/schedule", {
-    waitUntil: "networkidle2",
+    waitUntil: "domcontentloaded",
     timeout: 60000
   });
 
-  // 🔥 FIX 1: CI ต้องใช้เวลา render มากกว่า PC
+  // 🔥 FIX 1: CI ต้องรอนานกว่า PC
   await delay(8000);
 
-  // 🔥 FIX 2: wait selector แบบปลอดภัย
+  // 🔥 FIX 2: กัน selector ไม่มา
   await page.waitForSelector(".flatDateItem", { timeout: 60000 });
 
   const days = await page.$$eval(".flatDateItem", els => els.length);
@@ -60,7 +60,7 @@ function toThaiDate(ts) {
 
     console.log(`👉 Clicking day ${i + 1}`);
 
-    // 🔥 FIX 3: เพิ่ม safety wait response
+    // 🔥 FIX 3: กัน race condition
     const waitResponse = page.waitForResponse(res =>
       res.url().includes("/schedule/match") &&
       res.request().method() === "GET",
@@ -72,16 +72,21 @@ function toThaiDate(ts) {
       els[index]?.click();
     }, i);
 
-    const res = await waitResponse;
-    const json = await res.json();
+    // 🔥 FIX 4: sync + delay fallback
+    const [res] = await Promise.all([
+      waitResponse,
+      delay(2000)
+    ]);
 
+    const json = await res.json();
     allDaysData.push(json);
 
     console.log(`✅ GOT DAY ${i + 1}`);
-
-    await delay(2000);
   }
 
+  // =========================================================
+  // 🧠 BUILD PLAYLIST (UNCHANGED)
+  // =========================================================
   const byDay = {};
 
   for (const day of allDaysData) {
