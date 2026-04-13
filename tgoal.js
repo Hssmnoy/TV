@@ -1,3 +1,4 @@
+const puppeteer = require("puppeteer");
 const fs = require("fs");
 
 // =====================
@@ -15,16 +16,57 @@ const NOTIFICATION_ID =
 function getDate(offset = 0) {
   const d = new Date();
   d.setDate(d.getDate() + offset);
-
-  // YYYY-MM-DDT00:00:00+07:00
-  const iso = d.toISOString().split("T")[0];
-  return `${iso}T00:00:00+07:00`;
+  return d.toISOString().split("T")[0] + "T00:00:00+07:00";
 }
 
 // =====================
-// FETCH API
+// STEP 1: GET TOKEN (PUPPETEER ONLY ONCE)
 // =====================
-async function fetchSchedule(date) {
+async function getAuthFromBrowser() {
+  console.log("🔐 Getting auth...");
+
+  const browser = await puppeteer.launch({
+    headless: "new",
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+    ],
+  });
+
+  const page = await browser.newPage();
+
+  let token = null;
+
+  // ดัก request headers จริงจากเว็บ
+  page.on("request", (req) => {
+    const h = req.headers();
+    if (h.authorization && h.authorization.includes("Bearer")) {
+      token = h.authorization;
+    }
+  });
+
+  await page.goto(
+    "https://www.thai-goal.com/livestream/schedule",
+    { waitUntil: "networkidle2" }
+  );
+
+  await new Promise(r => setTimeout(r, 5000));
+
+  await browser.close();
+
+  if (!token) {
+    throw new Error("❌ NO TOKEN FOUND");
+  }
+
+  console.log("✅ TOKEN OK");
+  return token;
+}
+
+// =====================
+// STEP 2: FETCH API
+// =====================
+async function fetchSchedule(date, token) {
   const url = `${BASE_URL}?languageId=3&notificationId=${NOTIFICATION_ID}&currentDate=${encodeURIComponent(
     date
   )}&sportIds=0&sportIds=1&hasMatchHighlight=true&hasFavourite=true`;
@@ -32,11 +74,12 @@ async function fetchSchedule(date) {
   const res = await fetch(url, {
     method: "GET",
     headers: {
+      authorization: token,
       accept: "application/json, text/plain, */*",
-      origin: "https://www.dolive666.cc",
-      referer: "https://www.dolive666.cc/",
+      origin: "https://www.thai-goal.com",
+      referer: "https://www.thai-goal.com/",
       "user-agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/122 Safari/537.36",
     },
   });
 
@@ -44,42 +87,44 @@ async function fetchSchedule(date) {
 
   if (!text.startsWith("{")) {
     console.log("❌ RAW RESPONSE:", text.slice(0, 200));
-    throw new Error("❌ API blocked or invalid JSON");
+    throw new Error("❌ API BLOCKED");
   }
 
   return JSON.parse(text);
 }
 
 // =====================
-// RUN
+// MAIN
 // =====================
 (async () => {
   try {
-    console.log("🚀 START API MODE (NO PUPPETEER)");
+    console.log("🚀 START HYBRID PRODUCTION");
+
+    const token = await getAuthFromBrowser();
 
     const daysToFetch = 5;
-    const allData = [];
+    const all = [];
 
     for (let i = 0; i < daysToFetch; i++) {
       const date = getDate(i);
       console.log("📅 Fetch:", date);
 
-      const data = await fetchSchedule(date);
-      allData.push(data);
+      const data = await fetchSchedule(date, token);
+      all.push(data);
     }
 
     // =====================
-    // BUILD STRUCTURE
+    // BUILD OUTPUT
     // =====================
     const byDay = {};
 
-    for (const day of allData) {
+    for (const day of all) {
       const leagues = day?.data || [];
 
       for (const league of leagues) {
         for (const m of league.scheduledLiveStreamMatches || []) {
           const d = new Date(m.matchStartTime);
-          const key = `${d.getDate()}/${d.getMonth() + 1}`;
+          const key = `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
 
           if (!byDay[key]) byDay[key] = [];
 
@@ -96,13 +141,14 @@ async function fetchSchedule(date) {
     }
 
     // =====================
-    // OUTPUT FORMAT (same style)
+    // FORMAT OUTPUT (same style)
     // =====================
     const playlist = {
       name: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
       author: "Thai-goal",
       info: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
-      image: "https://media.dolive666.cc/bmo/brand/textLogo/1.webp",
+      image:
+        "https://media.dolive666.cc/bmo/brand/textLogo/1.webp",
       groups: [],
     };
 
@@ -133,11 +179,14 @@ async function fetchSchedule(date) {
       playlist.groups.push(group);
     }
 
-    fs.writeFileSync("playlist.json", JSON.stringify(playlist, null, 2));
+    fs.writeFileSync(
+      "tgoal_playlist.json",
+      JSON.stringify(playlist, null, 2)
+    );
 
     console.log("🎉 DONE");
     console.log("📦 Days:", playlist.groups.length);
-    console.log("💾 Saved: playlist.json");
+    console.log("💾 Saved: tgoal_playlist.json");
   } catch (err) {
     console.error("❌ ERROR:", err.message);
   }
