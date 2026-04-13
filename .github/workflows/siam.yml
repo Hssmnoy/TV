@@ -20,7 +20,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
+      
+      - name: 🌐 Install Chrome for Puppeteer
+        run: npx puppeteer browsers install chrome
+      
       - name: 📦 Install deps
         run: npm install
 
