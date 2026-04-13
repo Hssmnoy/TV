@@ -1,8 +1,7 @@
 name: Siam
 
 on:
-  schedule:
-    - cron: "0 23 * * *" # รันทุกวัน 06:00 ไทย
+    
   workflow_dispatch:
 
 permissions:
