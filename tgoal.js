@@ -23,7 +23,7 @@ function toThaiDate(ts) {
   let browser;
 
   try {
-    console.log("🚀 Start browser...");
+    console.log("🚀 Launch browser...");
 
     browser = await puppeteer.launch({
       headless: "new",
@@ -31,14 +31,15 @@ function toThaiDate(ts) {
         "--no-sandbox",
         "--disable-setuid-sandbox",
         "--disable-dev-shm-usage",
-        "--disable-blink-features=AutomationControlled"
+        "--disable-blink-features=AutomationControlled",
+        "--window-size=1366,768"
       ]
     });
 
     const page = await browser.newPage();
 
     // =========================
-    // 🧠 ANTI BOT DETECTION
+    // 🧠 STEALTH MODE
     // =========================
     await page.setUserAgent(
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
@@ -50,53 +51,63 @@ function toThaiDate(ts) {
       Object.defineProperty(navigator, "webdriver", {
         get: () => false,
       });
-    });
 
-    console.log("🌐 Loading page...");
+      window.chrome = { runtime: {} };
 
-    await page.goto("https://www.thai-goal.com/livestream/schedule", {
-      waitUntil: "domcontentloaded",
-      timeout: 60000,
-    });
-
-    // =========================
-    // 🔥 WAIT FOR RENDER (SAFE)
-    // =========================
-    await delay(10000);
-
-    console.log("🔍 Checking calendar...");
-
-    // 🔥 retry loop แทน waitForSelector
-    let days = 0;
-
-    for (let i = 0; i < 5; i++) {
-      days = await page.evaluate(() => {
-        return document.querySelectorAll("[class*='flat'], [class*='date']").length;
+      Object.defineProperty(navigator, "languages", {
+        get: () => ["th-TH", "th", "en"],
       });
 
-      console.log(`📅 Try ${i + 1}: found ${days}`);
+      Object.defineProperty(navigator, "plugins", {
+        get: () => [1, 2, 3, 4, 5],
+      });
+    });
 
-      if (days > 0) break;
+    console.log("🌐 Open page...");
 
-      await delay(3000);
-    }
+    await page.goto(
+      "https://www.thai-goal.com/livestream/schedule",
+      {
+        waitUntil: "networkidle2",
+        timeout: 60000,
+      }
+    );
 
     // =========================
-    // ❌ NO DATA → DEBUG MODE
+    // 🔥 SIMULATE HUMAN
+    // =========================
+    await delay(6000);
+
+    await page.mouse.move(200, 200);
+    await page.mouse.move(500, 400);
+
+    await page.evaluate(() => {
+      window.scrollTo(0, document.body.scrollHeight / 2);
+    });
+
+    await delay(4000);
+
+    // =========================
+    // 🔍 CHECK DATA (NO WAIT FOR SELECTOR)
+    // =========================
+    let days = await page.evaluate(() => {
+      return document.querySelectorAll("[class*='flat'], [class*='date']").length;
+    });
+
+    console.log("📅 Days found:", days);
+
+    // =========================
+    // ❌ IF BLOCKED → DEBUG
     // =========================
     if (!days || days === 0) {
-      console.log("❌ Calendar not found → saving debug.html");
+      console.log("❌ BLOCKED OR NO RENDER → saving debug.html");
 
-      const html = await page.content();
-      fs.writeFileSync("debug.html", html);
+      fs.writeFileSync("debug.html", await page.content());
 
-      throw new Error("Calendar not rendered in CI (bot detected or layout changed)");
+      throw new Error("Calendar not rendered (likely bot blocked)");
     }
 
     const limit = Math.min(days, 5);
-
-    console.log("📅 Using days:", limit);
-
     const allDaysData = [];
 
     for (let i = 0; i < limit; i++) {
@@ -122,20 +133,17 @@ function toThaiDate(ts) {
         console.log("✅ API OK");
 
       } catch (err) {
-        console.log("⚠️ Fallback DOM mode");
-
-        json = await page.evaluate(() => {
-          return { data: [] };
-        });
+        console.log("⚠️ Fallback empty data");
+        json = { data: [] };
       }
 
       allDaysData.push(json);
 
-      await delay(2000);
+      await delay(1500);
     }
 
     // =========================
-    // BUILD DATA
+    // 🧠 BUILD DATA
     // =========================
     const byDay = {};
 
@@ -163,7 +171,7 @@ function toThaiDate(ts) {
     }
 
     // =========================
-    // OUTPUT
+    // 📦 OUTPUT
     // =========================
     const playlist = {
       name: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
