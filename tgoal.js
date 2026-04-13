@@ -42,10 +42,20 @@ function toThaiDate(ts) {
     waitUntil: "networkidle2",
   });
 
-  await delay(4000);
+  console.log("⏳ Waiting for calendar...");
 
-  // 🟢 นับวัน
-  const days = await page.$$eval(".flatDateItem", els => els.length);
+// 🔥 รอ DOM จริง (สำคัญที่สุด)
+await page.waitForSelector(".flatDateItem", {
+  timeout: 30000
+});
+
+// 🟢 debug DOM ก่อนนับ
+const days = await page.evaluate(() => {
+  return document.querySelectorAll(".flatDateItem").length;
+});
+
+console.log("📅 Days:", days, "➡️ Using:", Math.min(days, 5));
+  
   const limit = Math.min(days, 5);
 
   console.log("📅 Days:", days, "➡️ Using:", limit);
