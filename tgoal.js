@@ -132,11 +132,11 @@ function getDate(offset = 0) {
     playlist.groups.push(group);
   }
 
-  fs.writeFileSync("playlist.json", JSON.stringify(playlist, null, 2));
+  fs.writeFileSync("playlist_tgoal.json", JSON.stringify(playlist, null, 2));
 
   console.log("🎉 DONE");
   console.log("📦 Days:", playlist.groups.length);
-  console.log("💾 Saved: playlist.json");
+  console.log("💾 Saved: playlist_tgoal.json");
 
   await browser.close();
 })();
