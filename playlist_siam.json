@@ -1,0 +1,626 @@
+{
+  "name": "Siamsport.co.th @13/4/2569",
+  "author": "Siamsport.co.th",
+  "info": "อัพเดต รายการแข่งขัน",
+  "image": "https://www.siamsport.co.th/_astro/logo-pink.DmcNsiwb.png",
+  "groups": [
+    {
+      "name": "13/04/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "21:45 อัล อาห์ลี vs อัล ดูฮาอิล",
+          "info": "เอเอฟซี แชมเปี้ยนส์ ลีก อีลิท | YouTube BG SPORTS",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:00 อัล ฮิลาล vs อัล ซาดด์",
+          "info": "เอเอฟซี แชมเปี้ยนส์ ลีก อีลิท | YouTube BG SPORTS",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 แมนยูไนเต็ด vs ลีดส์ ยูไนเต็ด",
+          "info": "พรีเมียร์ลีก อังกฤษ | MONOMAX",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 ฟิออเรนติน่า vs ลาซิโอ",
+          "info": "กัลโช่ เซเรีย อา | True Premier Football 3",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 เลบันเต้ vs เกตาเฟ่",
+          "info": "ลาลีกา สเปน | beIN SPORTS 1",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:15 Tondela vs กิล วิเซนต์",
+          "info": "ซูเปอร์ลีกา โปรตุเกส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 โรเดซ vs ทรัวส์",
+          "info": "ลีก เดอซ์ ฝรั่งเศส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:30 เรอัล บายาโดลิด vs เออิบาร์",
+          "info": "เซกุนด้า ดิบิซิออน สเปน | beIN SPORTS 2",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 ซิริอุส vs ฮัมมาร์บี้",
+          "info": "ออลสเวนส์คาน สวีเดน",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 บรอมมาปอจคาร์น่า vs เอไอเค โซลน่า",
+          "info": "ออลสเวนส์คาน สวีเดน",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 เฟรเดริเซีย vs เวจเล่",
+          "info": "ซูเปอร์ลีก เดนมาร์ก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 Eyüpspor vs ซัมซุนสปอร์",
+          "info": "ซูเปอร์ลีก ตุรกี",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 ริเซสปอร์ vs กาเซียนเต็ป",
+          "info": "ซูเปอร์ลีก ตุรกี",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "0 ราซิ่ง คลับ vs ริเวอร์ เพลท",
+          "info": "ลีกา โปร อาร์เจนตินา",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:30 ซาร์เมียนโต vs คิมนาเซีย ลา พลาต้า",
+          "info": "ลีกา โปร อาร์เจนตินา",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:30 เดเฟนซ่า vs ตาเยเรส เด กอร์โดบา",
+          "info": "ลีกา โปร อาร์เจนตินา",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 ลานุส vs บานฟิลด์",
+          "info": "ลีกา โปร อาร์เจนตินา",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "1 โคลัมบัส ครูว์ vs ออร์แลนโด ซิตี้",
+          "info": "เมเจอร์ลีก สหรัฐ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "ยกเลิก Singapore Women vs ฮ่องกง (หญิง)",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 Senegal Women vs Burkina Faso Women",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:30 โมร็อกโก vs Tanzania Women",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "04:00 Costa Rica U20 Women vs Canada U20 Women",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "0 เวลส์ U17 vs San Marino U17",
+          "info": "ยู-17 ชิงแชมป์ยุโรป รอบคัดเลือก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "1 Georgia U17 vs Andorra U17",
+          "info": "ยู-17 ชิงแชมป์ยุโรป รอบคัดเลือก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    },
+    {
+      "name": "14/04/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "21:45 แทรคเตอร์ ซาซี vs ชาบาบ อัล อาห์ลี",
+          "info": "เอเอฟซี แชมเปี้ยนส์ ลีก อีลิท | YouTube BG SPORTS",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:00 อัล อิตติฮัด vs อัล วาห์ด้า",
+          "info": "เอเอฟซี แชมเปี้ยนส์ ลีก อีลิท | YouTube BG SPORTS",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 ลิเวอร์พูล vs เปแอสเช",
+          "info": "ยูฟ่า แชมเปี้ยนส์ ลีก | beIN SPORTS 1",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 แอต.มาดริด vs บาร์เซโลน่า",
+          "info": "ยูฟ่า แชมเปี้ยนส์ ลีก | beIN SPORTS 3",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 พอร์ทสมัธ vs อิปสวิช ทาวน์",
+          "info": "แชมเปี้ยนชิพ อังกฤษ | MONOMAX",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 เซาธ์แฮมป์ตัน vs แบล็คเบิร์น โรเวอร์ส",
+          "info": "แชมเปี้ยนชิพ อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:00 อัล กาดซิยาห์ vs อัล ชาบาบ",
+          "info": "ซาอุดิ ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 คาตันซาโร่ vs โมเดน่า",
+          "info": "กัลโช่ เซเรีย บี อิตาลี",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 ฮัดเดอร์สฟิลด์ ทาวน์ vs คาร์ดิฟฟ์ ซิตี้",
+          "info": "ลีก วัน อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 โบลตัน vs สตีฟเนจ",
+          "info": "ลีก วัน อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 วีแกน vs ร็อตเธอร์แฮม ยูไนเต็ด",
+          "info": "ลีก วัน อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 พอร์ท เวล vs บาร์นสลี่ย์",
+          "info": "ลีก วัน อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 เลย์ตัน โอเรียนท์ vs แมนส์ฟิลด์",
+          "info": "ลีก วัน อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 โคลเชสเตอร์ vs แอคคริงตัน",
+          "info": "ลีก ทู อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 แบร์โรว์ vs โอลด์แฮม",
+          "info": "ลีก ทู อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 เชลท์แน่ม vs จิลลิ่งแฮม",
+          "info": "ลีก ทู อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 เชสเตอร์ฟิลด์ vs กริมสบี้ ทาวน์",
+          "info": "ลีก ทู อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:30 เบเลซ ซาร์สฟิลด์ vs เซ็นทรัล กอร์โดบา",
+          "info": "ลีกา โปร อาร์เจนตินา",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 นาซิอองนาล vs เดปอร์เตส โตลิมา",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 เซร์โร่ ปอร์เตโญ่ vs Junior",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 เอสตูเดียนเตส vs Cusco",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "03:00 การากัส vs อินเดเพนเดียนเต้",
+          "info": "โกปา ซูดาเมริกาน่า",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 เกรมิโอ vs เดปอร์ติโบ ริเอสตร้า",
+          "info": "โกปา ซูดาเมริกาน่า",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "19:00 แอฟริกาใต้ vs Algeria Women",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "19:00 Benin Women vs Comoros Women",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "23:00 Saudi Arabia Women vs Egypt Women",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 แคนาดา vs เกาหลีใต้ (หญิง)",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    },
+    {
+      "name": "15/04/2026",
+      "image": "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
+      "stations": [
+        {
+          "name": "19:15 ทรู แบงค็อก ยูไนเต็ด vs กัมบะ โอซาก้า",
+          "info": "เอเอฟซี แชมเปี้ยนส์ ลีก ทู | YouTube BG SPORTS",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 อาร์เซน่อล vs สปอร์ติ้ง ลิสบอน",
+          "info": "ยูฟ่า แชมเปี้ยนส์ ลีก | beIN SPORTS 3",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "02:00 บาเยิร์น มิวนิค vs เรอัล มาดริด",
+          "info": "ยูฟ่า แชมเปี้ยนส์ ลีก | beIN SPORTS 1",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:00 อัล นาสเซอร์ vs อัล-เอตติฟาค",
+          "info": "ซาอุดิ ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 ลูตัน ทาวน์ vs นอร์ทแฮมป์ตัน",
+          "info": "ลีก วัน อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "01:45 เอเอฟซี วิมเบิลดัน vs สต็อคพอร์ท",
+          "info": "ลีก วัน อังกฤษ",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 ทรอมโซ่ vs ลีลล์สตรอม",
+          "info": "อีลิทซีเรียน นอร์เวย์",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "00:00 ซาร์ปส์บอร์ก vs โบโด กลิมท์",
+          "info": "อีลิทซีเรียน นอร์เวย์",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:00 โบคา จูเนียร์ส vs บาร์เซโลน่า",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:00 โบลิวาร์ vs Deportivo La Guaira",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "09:00 แอลดียู กีโต้ vs Mirassol",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "09:00 ยูนิเวอร์ซิตาริโอ vs Coquimbo Unido",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 ลิเบอร์ตัด vs โรซาริโอ เซนทรัล",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 ครูไซโร่ vs Universidad Católica",
+          "info": "โกปา ลิเบอร์ตาดอเรส",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "07:00 วาสโก ดากามา vs ออแด็กซ์ อิตาเลียโน่",
+          "info": "โกปา ซูดาเมริกาน่า",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "05:00 ราซิ่ง คลับ vs โบตาโฟโก",
+          "info": "โกปา ซูดาเมริกาน่า",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "08:00 ครูซ อซูล vs ลอสแอนเจลิส เอฟซี",
+          "info": "คอนคาแคฟ แชมเปียนส์ ลีก | MONOMAX",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "10:30 อเมริกา vs แนชวิลล์ เอสซี",
+          "info": "คอนคาแคฟ แชมเปียนส์ ลีก",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "08:30 บราซิล vs แซมเบีย",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "09:00 สหรัฐอเมริกา vs ญี่ปุ่น (หญิง)",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "16:00 Indonesia Women vs New Caledonia W",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "18:00 อินเดีย (หญิง) vs Malawi W",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "20:30 ทีมชาติไทย (หญิง) vs Congo DR Women",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        },
+        {
+          "name": "21:30 Kenya Women vs ออสเตรเลีย (หญิง)",
+          "info": "Friendlies Women",
+          "image": "https://cdn.sportnanoapi.com/football/competition/bbe73e02dfd0737b98d16465ae014d9e.png",
+          "url": "",
+          "referer": "https://www.siamsport.co.th/",
+          "userAgent": "Mozilla/5.0"
+        }
+      ]
+    }
+  ]
+}
