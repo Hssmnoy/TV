@@ -1,20 +1,14 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-// =====================
-// DATE
-// =====================
 function getDate(offset = 0) {
   const d = new Date();
   d.setDate(d.getDate() + offset);
   return d.toISOString().split("T")[0] + "T00:00:00+07:00";
 }
 
-// =====================
-// MAIN
-// =====================
 (async () => {
-  console.log("🚀 START FINAL STABLE VERSION");
+  console.log("🚀 FINAL NETWORK MODE");
 
   const browser = await puppeteer.launch({
     headless: "new",
@@ -27,51 +21,56 @@ function getDate(offset = 0) {
 
   const page = await browser.newPage();
 
-  // สำคัญ: ต้องเปิดเว็บก่อนเพื่อให้ session + cloudflare ผ่าน
-  console.log("🌐 Loading main page...");
   await page.goto("https://www.thai-goal.com/livestream/schedule", {
     waitUntil: "networkidle2",
   });
 
-  const all = [];
+  const results = [];
 
-  const daysToFetch = 5;
-
-  for (let i = 0; i < daysToFetch; i++) {
+  for (let i = 0; i < 5; i++) {
     const date = getDate(i);
 
     console.log("📅 Fetch:", date);
 
-    // 🔥 ยิง API จาก browser context (ใช้ session จริง)
-    const data = await page.evaluate(async (date) => {
-      const url =
-        "https://api.dolive666.cc/v2/liveStream/schedule/match" +
-        "?languageId=3" +
-        "&notificationId=824cd204-0208-42c5-be43-4ff4d9afcc71" +
-        "&currentDate=" +
-        encodeURIComponent(date) +
-        "&sportIds=0&sportIds=1" +
-        "&hasMatchHighlight=true&hasFavourite=true";
+    const data = await new Promise(async (resolve, reject) => {
+      const timeout = setTimeout(() => {
+        reject(new Error("timeout"));
+      }, 30000);
 
-      const res = await fetch(url, {
-        credentials: "include",
-        headers: {
-          accept: "application/json",
-        },
-      });
+      const listener = async (response) => {
+        try {
+          const url = response.url();
 
-      return await res.json();
-    }, date);
+          if (
+            url.includes("/schedule/match") &&
+            url.includes("currentDate=" + encodeURIComponent(date).split("%")[0])
+          ) {
+            const json = await response.json();
+            page.off("response", listener);
+            clearTimeout(timeout);
+            resolve(json);
+          }
+        } catch (e) {}
+      };
 
-    all.push(data);
+      page.on("response", listener);
+
+      // trigger request
+      await page.evaluate((d) => {
+        window.__DATE__ = d;
+        location.reload();
+      }, date);
+    });
+
+    results.push(data);
   }
 
   // =====================
-  // BUILD DATA
+  // BUILD OUTPUT
   // =====================
   const byDay = {};
 
-  for (const day of all) {
+  for (const day of results) {
     const leagues = day?.data || [];
 
     for (const league of leagues) {
@@ -93,9 +92,6 @@ function getDate(offset = 0) {
     }
   }
 
-  // =====================
-  // OUTPUT FORMAT
-  // =====================
   const playlist = {
     name: `Thai-goal @${new Date().toLocaleDateString("th-TH")}`,
     author: "Thai-goal",
@@ -106,37 +102,26 @@ function getDate(offset = 0) {
   };
 
   for (const dayKey of Object.keys(byDay)) {
-    const group = {
+    playlist.groups.push({
       name: dayKey,
       image:
         "https://raw.githubusercontent.com/nongakka/wiseplay_index/main/sport1.png",
-      stations: [],
-    };
-
-    for (const m of byDay[dayKey]) {
-      const t = new Date(m.time).toLocaleTimeString("th-TH", {
-        hour: "2-digit",
-        minute: "2-digit",
-      });
-
-      group.stations.push({
-        name: `${t} ${m.home} vs ${m.away}`,
+      stations: byDay[dayKey].map((m) => ({
+        name: `${new Date(m.time).toLocaleTimeString("th-TH", {
+          hour: "2-digit",
+          minute: "2-digit",
+        })} ${m.home} vs ${m.away}`,
         info: m.league,
         image: m.logo,
         url: `https://www.thai-goal.com/th/watch-live-football/${m.id}`,
         referer: "https://www.thai-goal.com/",
         userAgent: "Mozilla/5.0",
-      });
-    }
-
-    playlist.groups.push(group);
+      })),
+    });
   }
 
   fs.writeFileSync("playlist_tgoal.json", JSON.stringify(playlist, null, 2));
 
   console.log("🎉 DONE");
-  console.log("📦 Days:", playlist.groups.length);
-  console.log("💾 Saved: playlist_tgoal.json");
-
   await browser.close();
 })();
