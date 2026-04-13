@@ -1,0 +1,44 @@
+name: tgoal
+
+on:
+    workflow_dispatch:
+    schedule:
+      - cron: "0 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm" # 🔥 เร็วขึ้น
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 🚀 Run scraper
+        run: node tgoal.js
+
+      - name: 💾 Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add tgoal.json
+
+          # 🔥 เช็คว่ามีการเปลี่ยนจริงไหม
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "🔄 auto update playlist"
+            git push
+          fi
