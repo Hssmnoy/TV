@@ -1,6 +1,6 @@
 {
   "name": "Dooball66",
-  "author": "Dooball66 14/04/2569 18:57:16",
+  "author": "Dooball66 15/04/2569 18:54:47",
   "image": "https://dooball66ad.com/wp-content/uploads/2020/07/cropped-logo.png",
   "url": "https://raw.githubusercontent.com/nongakka/shortmovie/main/playlist_wiseplay.json",
   "groups": [
@@ -729,30 +729,6 @@
           ]
         },
         {
-          "name": "uk-espn",
-          "image": "https://api.bananamuffin.org/images/png/uk-espn.png",
-          "stations": [
-            {
-              "name": "🟢 MAIN",
-              "info": "uk-espn",
-              "image": "https://api.bananamuffin.org/images/png/uk-espn.png",
-              "url": "https://love.verowo7190.workers.dev/vx-origin/uk-espn_720/chunks.m3u8",
-              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
-              "referer": "https://embed-xs.bananacake.org/",
-              "isHost": false
-            },
-            {
-              "name": "🟡 BACKUP 1",
-              "info": "uk-espn",
-              "image": "https://api.bananamuffin.org/images/png/uk-espn.png",
-              "url": "https://love.bebin98399.workers.dev/vx-origin/uk-espn_720/chunks.m3u8",
-              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
-              "referer": "https://embed-xs.bananacake.org/",
-              "isHost": false
-            }
-          ]
-        },
-        {
           "name": "uk-premiersports",
           "image": "https://api.bananamuffin.org/images/png/uk-premiersports.png",
           "stations": [
@@ -1106,30 +1082,6 @@
               "info": "uk-skysports2bkp",
               "image": "https://api.bananamuffin.org/images/png/uk-skysports2bkp.png",
               "url": "https://love.bebin98399.workers.dev/vx-origin/uk-skysports2bkp_720/chunks.m3u8",
-              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
-              "referer": "https://embed-xs.bananacake.org/",
-              "isHost": false
-            }
-          ]
-        },
-        {
-          "name": "uk-skysports3bkp",
-          "image": "https://api.bananamuffin.org/images/png/uk-skysports3bkp.png",
-          "stations": [
-            {
-              "name": "🟢 MAIN",
-              "info": "uk-skysports3bkp",
-              "image": "https://api.bananamuffin.org/images/png/uk-skysports3bkp.png",
-              "url": "https://love.verowo7190.workers.dev/vx-origin/uk-skysports3bkp_720/chunks.m3u8",
-              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
-              "referer": "https://embed-xs.bananacake.org/",
-              "isHost": false
-            },
-            {
-              "name": "🟡 BACKUP 1",
-              "info": "uk-skysports3bkp",
-              "image": "https://api.bananamuffin.org/images/png/uk-skysports3bkp.png",
-              "url": "https://love.bebin98399.workers.dev/vx-origin/uk-skysports3bkp_720/chunks.m3u8",
               "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
               "referer": "https://embed-xs.bananacake.org/",
               "isHost": false
@@ -1593,6 +1545,30 @@
           ]
         },
         {
+          "name": "au-skyracing1",
+          "image": "https://api.bananamuffin.org/images/png/au-skyracing1.png",
+          "stations": [
+            {
+              "name": "🟢 MAIN",
+              "info": "au-skyracing1",
+              "image": "https://api.bananamuffin.org/images/png/au-skyracing1.png",
+              "url": "https://love.verowo7190.workers.dev/lx-origin/au-skyracing1_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            },
+            {
+              "name": "🟡 BACKUP 1",
+              "info": "au-skyracing1",
+              "image": "https://api.bananamuffin.org/images/png/au-skyracing1.png",
+              "url": "https://love.bebin98399.workers.dev/lx-origin/au-skyracing1_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            }
+          ]
+        },
+        {
           "name": "au-skyracing2",
           "image": "https://api.bananamuffin.org/images/png/au-skyracing2.png",
           "stations": [
@@ -1634,6 +1610,78 @@
               "info": "ca-tsn2",
               "image": "https://api.bananamuffin.org/images/png/ca-tsn2.png",
               "url": "https://love.bebin98399.workers.dev/lx-origin/ca-tsn2_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            }
+          ]
+        },
+        {
+          "name": "ca-tsn3",
+          "image": "https://api.bananamuffin.org/images/png/ca-tsn3.png",
+          "stations": [
+            {
+              "name": "🟢 MAIN",
+              "info": "ca-tsn3",
+              "image": "https://api.bananamuffin.org/images/png/ca-tsn3.png",
+              "url": "https://love.verowo7190.workers.dev/lx-origin/ca-tsn3_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            },
+            {
+              "name": "🟡 BACKUP 1",
+              "info": "ca-tsn3",
+              "image": "https://api.bananamuffin.org/images/png/ca-tsn3.png",
+              "url": "https://love.bebin98399.workers.dev/lx-origin/ca-tsn3_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            }
+          ]
+        },
+        {
+          "name": "ca-tsn4",
+          "image": "https://api.bananamuffin.org/images/png/ca-tsn4.png",
+          "stations": [
+            {
+              "name": "🟢 MAIN",
+              "info": "ca-tsn4",
+              "image": "https://api.bananamuffin.org/images/png/ca-tsn4.png",
+              "url": "https://love.verowo7190.workers.dev/lx-origin/ca-tsn4_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            },
+            {
+              "name": "🟡 BACKUP 1",
+              "info": "ca-tsn4",
+              "image": "https://api.bananamuffin.org/images/png/ca-tsn4.png",
+              "url": "https://love.bebin98399.workers.dev/lx-origin/ca-tsn4_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            }
+          ]
+        },
+        {
+          "name": "ca-tsn5",
+          "image": "https://api.bananamuffin.org/images/png/ca-tsn5.png",
+          "stations": [
+            {
+              "name": "🟢 MAIN",
+              "info": "ca-tsn5",
+              "image": "https://api.bananamuffin.org/images/png/ca-tsn5.png",
+              "url": "https://love.verowo7190.workers.dev/lx-origin/ca-tsn5_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            },
+            {
+              "name": "🟡 BACKUP 1",
+              "info": "ca-tsn5",
+              "image": "https://api.bananamuffin.org/images/png/ca-tsn5.png",
+              "url": "https://love.bebin98399.workers.dev/lx-origin/ca-tsn5_720/chunks.m3u8",
               "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
               "referer": "https://embed-xs.bananacake.org/",
               "isHost": false
@@ -2433,6 +2481,30 @@
           ]
         },
         {
+          "name": "nz-skysport6",
+          "image": "https://api.bananamuffin.org/images/png/nz-skysport6.png",
+          "stations": [
+            {
+              "name": "🟢 MAIN",
+              "info": "nz-skysport6",
+              "image": "https://api.bananamuffin.org/images/png/nz-skysport6.png",
+              "url": "https://love.verowo7190.workers.dev/lx-origin/nz-skysport6_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            },
+            {
+              "name": "🟡 BACKUP 1",
+              "info": "nz-skysport6",
+              "image": "https://api.bananamuffin.org/images/png/nz-skysport6.png",
+              "url": "https://love.bebin98399.workers.dev/lx-origin/nz-skysport6_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            }
+          ]
+        },
+        {
           "name": "nz-skysport7",
           "image": "https://api.bananamuffin.org/images/png/nz-skysport7.png",
           "stations": [
@@ -2450,6 +2522,30 @@
               "info": "nz-skysport7",
               "image": "https://api.bananamuffin.org/images/png/nz-skysport7.png",
               "url": "https://love.bebin98399.workers.dev/lx-origin/nz-skysport7_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            }
+          ]
+        },
+        {
+          "name": "nz-skysport8",
+          "image": "https://api.bananamuffin.org/images/png/nz-skysport8.png",
+          "stations": [
+            {
+              "name": "🟢 MAIN",
+              "info": "nz-skysport8",
+              "image": "https://api.bananamuffin.org/images/png/nz-skysport8.png",
+              "url": "https://love.verowo7190.workers.dev/lx-origin/nz-skysport8_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            },
+            {
+              "name": "🟡 BACKUP 1",
+              "info": "nz-skysport8",
+              "image": "https://api.bananamuffin.org/images/png/nz-skysport8.png",
+              "url": "https://love.bebin98399.workers.dev/lx-origin/nz-skysport8_720/chunks.m3u8",
               "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
               "referer": "https://embed-xs.bananacake.org/",
               "isHost": false
@@ -2954,6 +3050,30 @@
               "info": "sg-hubsport03",
               "image": "https://api.bananamuffin.org/images/png/sg-hubsport03.png",
               "url": "https://love.bebin98399.workers.dev/lx-origin/sg-hubsport03_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            }
+          ]
+        },
+        {
+          "name": "sk-arena1",
+          "image": "https://api.bananamuffin.org/images/png/sk-arena1.png",
+          "stations": [
+            {
+              "name": "🟢 MAIN",
+              "info": "sk-arena1",
+              "image": "https://api.bananamuffin.org/images/png/sk-arena1.png",
+              "url": "https://love.verowo7190.workers.dev/lx-origin/sk-arena1_720/chunks.m3u8",
+              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
+              "referer": "https://embed-xs.bananacake.org/",
+              "isHost": false
+            },
+            {
+              "name": "🟡 BACKUP 1",
+              "info": "sk-arena1",
+              "image": "https://api.bananamuffin.org/images/png/sk-arena1.png",
+              "url": "https://love.bebin98399.workers.dev/lx-origin/sk-arena1_720/chunks.m3u8",
               "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
               "referer": "https://embed-xs.bananacake.org/",
               "isHost": false
@@ -3638,30 +3758,6 @@
               "info": "hd-tfilm",
               "image": "https://api.bananamuffin.org/images/png/hd-tfilm.png",
               "url": "https://love.bebin98399.workers.dev/vx-origin/hd-tfilm_720/chunks.m3u8",
-              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
-              "referer": "https://embed-xs.bananacake.org/",
-              "isHost": false
-            }
-          ]
-        },
-        {
-          "name": "hd-warnertv",
-          "image": "https://api.bananamuffin.org/images/png/hd-warnertv.png",
-          "stations": [
-            {
-              "name": "🟢 MAIN",
-              "info": "hd-warnertv",
-              "image": "https://api.bananamuffin.org/images/png/hd-warnertv.png",
-              "url": "https://love.verowo7190.workers.dev/lx-origin/hd-warnertv_720/chunks.m3u8",
-              "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
-              "referer": "https://embed-xs.bananacake.org/",
-              "isHost": false
-            },
-            {
-              "name": "🟡 BACKUP 1",
-              "info": "hd-warnertv",
-              "image": "https://api.bananamuffin.org/images/png/hd-warnertv.png",
-              "url": "https://love.bebin98399.workers.dev/lx-origin/hd-warnertv_720/chunks.m3u8",
               "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122 Safari/537.36",
               "referer": "https://embed-xs.bananacake.org/",
               "isHost": false
