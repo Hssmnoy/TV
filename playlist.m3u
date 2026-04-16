@@ -15,18 +15,10 @@ https://love.bebin98399.workers.dev/vx-origin/hd-spotv2_720/chunks.m3u8
 https://love.verowo7190.workers.dev/lx-origin/th-monomax01_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax01.png" group-title="🏟️ กีฬา",th-monomax01 (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/th-monomax01_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax01bkp.png" group-title="🏟️ กีฬา",th-monomax01bkp (🟢 LX (720))
-https://love.verowo7190.workers.dev/lx-origin/th-monomax01bkp_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax01bkp.png" group-title="🏟️ กีฬา",th-monomax01bkp (🟢 LX (720))
-https://love.bebin98399.workers.dev/lx-origin/th-monomax01bkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax02.png" group-title="🏟️ กีฬา",th-monomax02 (🟢 LX (720))
 https://love.verowo7190.workers.dev/lx-origin/th-monomax02_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax02.png" group-title="🏟️ กีฬา",th-monomax02 (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/th-monomax02_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax02bkp.png" group-title="🏟️ กีฬา",th-monomax02bkp (🟢 LX (720))
-https://love.verowo7190.workers.dev/lx-origin/th-monomax02bkp_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax02bkp.png" group-title="🏟️ กีฬา",th-monomax02bkp (🟢 LX (720))
-https://love.bebin98399.workers.dev/lx-origin/th-monomax02bkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax02eng.png" group-title="🏟️ กีฬา",th-monomax02eng (🟢 LX (720))
 https://love.verowo7190.workers.dev/lx-origin/th-monomax02eng_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/th-monomax02eng.png" group-title="🏟️ กีฬา",th-monomax02eng (🟢 LX (720))
@@ -111,14 +103,14 @@ https://love.bebin98399.workers.dev/lx-origin/uk-btsport2hd_720/chunks.m3u8
 https://love.verowo7190.workers.dev/vx-origin/uk-btsport2hdbkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-btsport2hdbkp.png" group-title="🏟️ กีฬา",uk-btsport2hdbkp (🔵 VX (720))
 https://love.bebin98399.workers.dev/vx-origin/uk-btsport2hdbkp_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-btsport3hd.png" group-title="🏟️ กีฬา",uk-btsport3hd (🟢 LX (720))
-https://love.verowo7190.workers.dev/lx-origin/uk-btsport3hd_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-btsport3hd.png" group-title="🏟️ กีฬา",uk-btsport3hd (🟢 LX (720))
-https://love.bebin98399.workers.dev/lx-origin/uk-btsport3hd_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-btsport3hdbkp.png" group-title="🏟️ กีฬา",uk-btsport3hdbkp (🔵 VX (720))
 https://love.verowo7190.workers.dev/vx-origin/uk-btsport3hdbkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-btsport3hdbkp.png" group-title="🏟️ กีฬา",uk-btsport3hdbkp (🔵 VX (720))
 https://love.bebin98399.workers.dev/vx-origin/uk-btsport3hdbkp_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-espn.png" group-title="🏟️ กีฬา",uk-espn (🔵 VX (720))
+https://love.verowo7190.workers.dev/vx-origin/uk-espn_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-espn.png" group-title="🏟️ กีฬา",uk-espn (🔵 VX (720))
+https://love.bebin98399.workers.dev/vx-origin/uk-espn_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-premiersports.png" group-title="🏟️ กีฬา",uk-premiersports (🔵 VX (720))
 https://love.verowo7190.workers.dev/vx-origin/uk-premiersports_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-premiersports.png" group-title="🏟️ กีฬา",uk-premiersports (🔵 VX (720))
@@ -179,6 +171,10 @@ https://love.bebin98399.workers.dev/vx-origin/uk-skysports1bkp_720/chunks.m3u8
 https://love.verowo7190.workers.dev/vx-origin/uk-skysports2bkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-skysports2bkp.png" group-title="🏟️ กีฬา",uk-skysports2bkp (🔵 VX (720))
 https://love.bebin98399.workers.dev/vx-origin/uk-skysports2bkp_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-skysports3bkp.png" group-title="🏟️ กีฬา",uk-skysports3bkp (🔵 VX (720))
+https://love.verowo7190.workers.dev/vx-origin/uk-skysports3bkp_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-skysports3bkp.png" group-title="🏟️ กีฬา",uk-skysports3bkp (🔵 VX (720))
+https://love.bebin98399.workers.dev/vx-origin/uk-skysports3bkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-skysports4bkp.png" group-title="🏟️ กีฬา",uk-skysports4bkp (🔵 VX (720))
 https://love.verowo7190.workers.dev/vx-origin/uk-skysports4bkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-skysports4bkp.png" group-title="🏟️ กีฬา",uk-skysports4bkp (🔵 VX (720))
@@ -191,6 +187,10 @@ https://love.bebin98399.workers.dev/vx-origin/uk-skysports5bkp_720/chunks.m3u8
 https://love.verowo7190.workers.dev/vx-origin/uk-skysportsf1bkp_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/uk-skysportsf1bkp.png" group-title="🏟️ กีฬา",uk-skysportsf1bkp (🔵 VX (720))
 https://love.bebin98399.workers.dev/vx-origin/uk-skysportsf1bkp_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/us-cbssn.png" group-title="🏟️ กีฬา",us-cbssn (🔵 VX (720))
+https://love.verowo7190.workers.dev/vx-origin/us-cbssn_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/us-cbssn.png" group-title="🏟️ กีฬา",us-cbssn (🔵 VX (720))
+https://love.bebin98399.workers.dev/vx-origin/us-cbssn_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/us-espn1.png" group-title="🏟️ กีฬา",us-espn1 (🔵 VX (720))
 https://love.verowo7190.workers.dev/vx-origin/us-espn1_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/us-espn1.png" group-title="🏟️ กีฬา",us-espn1 (🔵 VX (720))
@@ -263,6 +263,10 @@ https://love.bebin98399.workers.dev/lx-origin/au-skyracing1_720/chunks.m3u8
 https://love.verowo7190.workers.dev/lx-origin/au-skyracing2_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/au-skyracing2.png" group-title="🏟️ กีฬา",au-skyracing2 (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/au-skyracing2_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/ca-tsn1.png" group-title="🏟️ กีฬา",ca-tsn1 (🟢 LX (720))
+https://love.verowo7190.workers.dev/lx-origin/ca-tsn1_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/ca-tsn1.png" group-title="🏟️ กีฬา",ca-tsn1 (🟢 LX (720))
+https://love.bebin98399.workers.dev/lx-origin/ca-tsn1_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/ca-tsn2.png" group-title="🏟️ กีฬา",ca-tsn2 (🟢 LX (720))
 https://love.verowo7190.workers.dev/lx-origin/ca-tsn2_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/ca-tsn2.png" group-title="🏟️ กีฬา",ca-tsn2 (🟢 LX (720))
@@ -336,8 +340,6 @@ https://love.verowo7190.workers.dev/lx-origin/my-bein3_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/my-bein3.png" group-title="🏟️ กีฬา",my-bein3 (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/my-bein3_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/my-nbcgolf.png" group-title="🏟️ กีฬา",my-nbcgolf (🟢 LX (720))
-https://love.verowo7190.workers.dev/lx-origin/my-nbcgolf_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/my-nbcgolf.png" group-title="🏟️ กีฬา",my-nbcgolf (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/my-nbcgolf_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/my-premiersports.png" group-title="🏟️ กีฬา",my-premiersports (🟢 LX (720))
 https://love.verowo7190.workers.dev/lx-origin/my-premiersports_720/chunks.m3u8
@@ -367,6 +369,14 @@ https://love.bebin98399.workers.dev/lx-origin/nl-espn3_720/chunks.m3u8
 https://love.verowo7190.workers.dev/lx-origin/nl-espn4_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/nl-espn4.png" group-title="🏟️ กีฬา",nl-espn4 (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/nl-espn4_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/nl-espn5.png" group-title="🏟️ กีฬา",nl-espn5 (🟢 LX (720))
+https://love.verowo7190.workers.dev/lx-origin/nl-espn5_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/nl-espn5.png" group-title="🏟️ กีฬา",nl-espn5 (🟢 LX (720))
+https://love.bebin98399.workers.dev/lx-origin/nl-espn5_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/nl-espn6.png" group-title="🏟️ กีฬา",nl-espn6 (🟢 LX (720))
+https://love.verowo7190.workers.dev/lx-origin/nl-espn6_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/nl-espn6.png" group-title="🏟️ กีฬา",nl-espn6 (🟢 LX (720))
+https://love.bebin98399.workers.dev/lx-origin/nl-espn6_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/nl-ziggosport1.png" group-title="🏟️ กีฬา",nl-ziggosport1 (🟢 LX (720))
 https://love.verowo7190.workers.dev/lx-origin/nl-ziggosport1_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/nl-ziggosport1.png" group-title="🏟️ กีฬา",nl-ziggosport1 (🟢 LX (720))
@@ -439,6 +449,10 @@ https://love.bebin98399.workers.dev/lx-origin/hd-bein10_720/chunks.m3u8
 https://love.verowo7190.workers.dev/lx-origin/hd-bein11_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein11.png" group-title="🏟️ กีฬา",hd-bein11 (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/hd-bein11_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein12.png" group-title="🏟️ กีฬา",hd-bein12 (🟢 LX (720))
+https://love.verowo7190.workers.dev/lx-origin/hd-bein12_720/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein12.png" group-title="🏟️ กีฬา",hd-bein12 (🟢 LX (720))
+https://love.bebin98399.workers.dev/lx-origin/hd-bein12_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein2.png" group-title="🏟️ กีฬา",hd-bein2 (🟢 LX (720))
 https://love.verowo7190.workers.dev/lx-origin/hd-bein2_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein2.png" group-title="🏟️ กีฬา",hd-bein2 (🟢 LX (720))
@@ -451,10 +465,6 @@ https://love.bebin98399.workers.dev/lx-origin/hd-bein3_720/chunks.m3u8
 https://love.verowo7190.workers.dev/lx-origin/hd-bein4_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein4.png" group-title="🏟️ กีฬา",hd-bein4 (🟢 LX (720))
 https://love.bebin98399.workers.dev/lx-origin/hd-bein4_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein5.png" group-title="🏟️ กีฬา",hd-bein5 (🟢 LX (720))
-https://love.verowo7190.workers.dev/lx-origin/hd-bein5_720/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein5.png" group-title="🏟️ กีฬา",hd-bein5 (🟢 LX (720))
-https://love.bebin98399.workers.dev/lx-origin/hd-bein5_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein6.png" group-title="🏟️ กีฬา",hd-bein6 (🟢 LX (720))
 https://love.verowo7190.workers.dev/lx-origin/hd-bein6_720/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://api.bananamuffin.org/images/png/hd-bein6.png" group-title="🏟️ กีฬา",hd-bein6 (🟢 LX (720))
