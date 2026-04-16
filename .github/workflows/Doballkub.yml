@@ -22,7 +22,7 @@ jobs:
 
       - run: npm install axios
 
-      - run: node doballkub.js
+      - run: node Doballkub.js
 
       - run: |
           git config --global user.name "github-actions"
