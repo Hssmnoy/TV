@@ -1,0 +1,32 @@
+name: Doballkub Update
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+    
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install axios
+
+      - run: node doballkub.js
+
+      - run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "action@github.com"
+          git add Doballkub.json
+          git commit -m "update doballkub" || echo nochange
+          git push
