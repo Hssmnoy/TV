@@ -66,9 +66,9 @@ m3u += `${stream}\n\n`
 
 /* ---------- SAVE FILES ---------- */
 
-fs.writeFileSync("playlist.json",JSON.stringify(json,null,2))
+fs.writeFileSync("playlist_dkl.json",JSON.stringify(json,null,2))
 
-fs.writeFileSync("playlist.m3u",m3u)
+fs.writeFileSync("playlist_dkl.m3u",m3u)
 
 console.log("CHANNELS:",json.channels.length)
 console.log("DONE")
