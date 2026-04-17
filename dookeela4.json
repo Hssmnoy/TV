@@ -1,108 +1,14 @@
 {
-  "name": "Dookeela4.live update @16/04/2026",
-  "author": "Update@16/04/2026",
-  "info": "dookeela4.live Update@16/04/2026",
+  "name": "Dookeela4.live update @17/04/2026",
+  "author": "Update@17/04/2026",
+  "info": "dookeela4.live Update@17/04/2026",
   "url": "https://raw.githubusercontent.com/nongakka/TV/main/dookeela4.json",
   "image": "https://dookeela4.live/images/logo-bar.png",
   "groups": [
     {
-      "name": "วันที่ 16/04/26",
-      "image": "https://dookeela4.live/images/logo-bar.png",
-      "stations": [
-        {
-          "name": "10:30 Seattle Sounders vs Tigres UANL",
-          "info": "CONCACAF Champions League",
-          "image": "https://media.api-sports.io/football/leagues/16.png",
-          "url": "https://dookeela4.live/football/match/587226",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "23:45 Celta Vigo vs SC Freiburg",
-          "info": "UEFA Europa League",
-          "image": "https://media.api-sports.io/football/leagues/3.png",
-          "url": "https://dookeela4.live/football/match/587283",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "23:45 AZ Alkmaar vs Shakhtar Donetsk",
-          "info": "UEFA Europa Conference League",
-          "image": "https://media.api-sports.io/football/leagues/848.png",
-          "url": "https://dookeela4.live/football/match/587284",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        }
-      ]
-    },
-    {
       "name": "วันที่ 17/04/26",
       "image": "https://dookeela4.live/images/logo-bar.png",
       "stations": [
-        {
-          "name": "02:00 Bromley vs Cambridge United",
-          "info": "League Two",
-          "image": "https://media.api-sports.io/football/leagues/42.png",
-          "url": "https://dookeela4.live/football/match/587335",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 Aston Villa vs Bologna",
-          "info": "UEFA Europa League",
-          "image": "https://media.api-sports.io/football/leagues/3.png",
-          "url": "https://dookeela4.live/football/match/587336",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 Real Betis vs SC Braga",
-          "info": "UEFA Europa League",
-          "image": "https://media.api-sports.io/football/leagues/3.png",
-          "url": "https://dookeela4.live/football/match/587337",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 Nottingham Forest vs FC Porto",
-          "info": "UEFA Europa League",
-          "image": "https://media.api-sports.io/football/leagues/3.png",
-          "url": "https://dookeela4.live/football/match/587338",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 AEK Athens FC vs Rayo Vallecano",
-          "info": "UEFA Europa Conference League",
-          "image": "https://media.api-sports.io/football/leagues/848.png",
-          "url": "https://dookeela4.live/football/match/587339",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 Fiorentina vs Crystal Palace",
-          "info": "UEFA Europa Conference League",
-          "image": "https://media.api-sports.io/football/leagues/848.png",
-          "url": "https://dookeela4.live/football/match/587340",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 Strasbourg vs FSV Mainz 05",
-          "info": "UEFA Europa Conference League",
-          "image": "https://media.api-sports.io/football/leagues/848.png",
-          "url": "https://dookeela4.live/football/match/587341",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:30 Ivory Coast W vs Pakistan W",
-          "info": "Friendlies Women",
-          "image": "https://media.api-sports.io/football/leagues/666.png",
-          "url": "https://dookeela4.live/football/match/587342",
-          "referer": "https://dookeela4.live/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
         {
           "name": "15:30 Bhayangkara FC vs PSIM Yogyakarta",
           "info": "Liga 1",
@@ -574,10 +480,66 @@
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         },
         {
+          "name": "18:00 Rasi Salai United vs Mahasarakham United",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/588057",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Pattani vs Chanthaburi",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/588058",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Chiangmai United vs Nong Bua Pitchaya",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/588059",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Police Tero vs Phrae United",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/588060",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Prachuap vs Chonburi FC",
+          "info": "Thai League 1",
+          "image": "https://media.api-sports.io/football/leagues/296.png",
+          "url": "https://dookeela4.live/football/match/588061",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Bangkok United vs Ratchaburi",
+          "info": "Thai League 1",
+          "image": "https://media.api-sports.io/football/leagues/296.png",
+          "url": "https://dookeela4.live/football/match/588062",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
           "name": "18:30 Portsmouth vs Leicester",
           "info": "Championship",
           "image": "https://media.api-sports.io/football/leagues/40.png",
           "url": "https://dookeela4.live/football/match/588117",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:30 Muangthong United vs Nakhon Ratchasima FC",
+          "info": "Thai League 1",
+          "image": "https://media.api-sports.io/football/leagues/296.png",
+          "url": "https://dookeela4.live/football/match/588144",
           "referer": "https://dookeela4.live/",
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         },
@@ -602,6 +564,14 @@
           "info": "Liga 1",
           "image": "https://media.api-sports.io/football/leagues/274.png",
           "url": "https://dookeela4.live/football/match/588163",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "19:00 Uthai Thani vs Rayong FC",
+          "info": "Thai League 1",
+          "image": "https://media.api-sports.io/football/leagues/296.png",
+          "url": "https://dookeela4.live/football/match/588224",
           "referer": "https://dookeela4.live/",
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         },
@@ -1204,6 +1174,46 @@
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         },
         {
+          "name": "18:00 Trat FC vs Chainat",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/589833",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Esan Pattaya vs Sisaket United",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/589834",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Khon Kaen United vs Kasetsart FC",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/589835",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Songkhla vs Nakhon Si Thammarat",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/589836",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "18:00 Nakhon Pathom vs Bangkok",
+          "info": "Thai League 2",
+          "image": "https://media.api-sports.io/football/leagues/297.png",
+          "url": "https://dookeela4.live/football/match/589837",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
           "name": "18:30 Eintracht Braunschweig vs Hertha Berlin",
           "info": "2. Bundesliga",
           "image": "https://media.api-sports.io/football/leagues/79.png",
@@ -1240,6 +1250,14 @@
           "info": "Liga 1",
           "image": "https://media.api-sports.io/football/leagues/274.png",
           "url": "https://dookeela4.live/football/match/589890",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "19:00 Port FC vs Bangkok Glass",
+          "info": "Thai League 1",
+          "image": "https://media.api-sports.io/football/leagues/296.png",
+          "url": "https://dookeela4.live/football/match/589935",
           "referer": "https://dookeela4.live/",
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         },
@@ -1384,6 +1402,20 @@
           "info": "Liga Profesional Argentina",
           "image": "https://media.api-sports.io/football/leagues/128.png",
           "url": "https://dookeela4.live/football/match/590531",
+          "referer": "https://dookeela4.live/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        }
+      ]
+    },
+    {
+      "name": "วันที่ 20/04/26",
+      "image": "https://dookeela4.live/images/logo-bar.png",
+      "stations": [
+        {
+          "name": "02:00 Al Ahli Doha vs Al Hussein",
+          "info": "AFC Cup",
+          "image": "https://media.api-sports.io/football/leagues/18.png",
+          "url": "https://dookeela4.live/football/match/563508",
           "referer": "https://dookeela4.live/",
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         }
