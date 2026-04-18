@@ -4,7 +4,7 @@ const fs = require("fs");
 async function getTrueIDChannels() {
   console.log("📡 โหลด TRUEID...");
 
-  const url = "https://raw.githubusercontent.com/nongakka/TV/main/true_chanel.json";
+  const url = "https://raw.githubusercontent.com/Hssmnoy/TV/main/true_chanel.json";
 
   const res = await axios.get(url);
 
