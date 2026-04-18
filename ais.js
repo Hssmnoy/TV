@@ -11,11 +11,11 @@ async function getAllChannelsFromAPI() {
   console.log("📡 โหลดรายการช่อง...");
 
   const res = await axios.get(
-    "https://raw.githubusercontent.com/nongakka/TV/main/ais_channels.json"  
+    "https://raw.githubusercontent.com/Hssmnoy/TV/main/ais_channels.json"  
   );
 
    //https://web-tls.ais-vidnt.com/get_section/5b403fa4d817de591a0afffe/?d=gstweb
-   //https://raw.githubusercontent.com/nongakka/TV/main/ais_channels.json
+   //https://raw.githubusercontent.com/Hssmnoy/TV/main/ais_channels.json
    //https://web-sila.ais-vidnt.com/get_channels/
 
   const items = res.data.items || [];
@@ -157,7 +157,7 @@ function savePlaylists(data) {
     name: "AIS (M3U8)",
     author: "update " + today,
     image: "https://aisplay.ais.co.th/portal/static/img/ais_play.e9f424a5.png",
-    url: "https://raw.githubusercontent.com/nongakka/TV/main/ais_playlist.json",
+    url: "https://raw.githubusercontent.com/Hssmnoy/TV/main/ais_playlist.json",
     stations: data
       .filter(ch => ch.m3u8)
       .map(ch => ({
@@ -180,7 +180,7 @@ function savePlaylists(data) {
     name: "AIS (WEB)",
     author: "update " + today,
     image: "https://aisplay.ais.co.th/portal/static/img/ais_play.e9f424a5.png",
-    url: "https://raw.githubusercontent.com/nongakka/TV/main/ais_playlist_web.json",
+    url: "https://raw.githubusercontent.com/Hssmnoy/TV/main/ais_playlist_web.json",
     stations: data.map(ch => ({
       name: ch.name,
       image: ch.logo,
