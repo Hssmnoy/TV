@@ -37,7 +37,7 @@ async function generatePlaylist() {
     name: `Dookeela4.live update @${Object.keys(data)[0].split("-").reverse().join("/")}`,
     author: `Update@${Object.keys(data)[0].split("-").reverse().join("/")}`,
     info: `dookeela4.live Update@${Object.keys(data)[0].split("-").reverse().join("/")}`,
-    url: "https://raw.githubusercontent.com/nongakka/TV/main/dookeela4.json",
+    url: "https://raw.githubusercontent.com/Hssmnoy/TV/main/dookeela4.json",
     image: "https://dookeela4.live/images/logo-bar.png",
     groups
   };
