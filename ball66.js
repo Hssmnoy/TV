@@ -155,7 +155,7 @@ const wiseplay = {
     second: "2-digit"
   }),
   image: "https://dooball66ad.com/wp-content/uploads/2020/07/cropped-logo.png",
-  url: "https://raw.githubusercontent.com/nongakka/shortmovie/main/playlist_wiseplay.json",
+  url: "https://raw.githubusercontent.com/Hssmnoy/shortmovie/main/playlist_wiseplay.json",
   groups: []
 };
 
