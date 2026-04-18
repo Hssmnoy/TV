@@ -45,7 +45,7 @@ async function run() {
             name: `Dooball66 update @${new Date().toLocaleDateString("th-TH")}`,
             author: `Update@${new Date().toLocaleDateString("th-TH")}`,
             info: `Dooball66 Auto Update`,
-            url: "https://raw.githubusercontent.com/nongakka/TV/main/Dooball66.json",
+            url: "https://raw.githubusercontent.com/Hssmnoy/TV/main/Dooball66.json",
             image: "https://dooball66ae.com/wp-content/uploads/2020/07/cropped-logo.png",
             groups: [
                 {
