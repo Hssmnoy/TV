@@ -132,7 +132,7 @@ stations.sort((a,b)=>a.name.localeCompare(b.name));
     name: "Doballkub.com",
     author: `Update@${today()}`,
     info: `Doballkub Update@${today()}`,
-    url: "https://raw.githubusercontent.com/nongakka/TV/main/Doballkub.json",
+    url: "https://raw.githubusercontent.com/Hssmnoy/TV/main/Doballkub.json",
     image: "https://s3.ดูบอลดูหนัง.com/global/favicon.ico",
     groups: [
       {
@@ -201,7 +201,7 @@ async function main() {
       name: "Doballkub.com",
       author: `Update@${today()}`,
       info: `Doballkub Update@${today()}`,
-      url: "https://raw.githubusercontent.com/nongakka/TV/main/Doballkub.json",
+      url: "https://raw.githubusercontent.com/Hssmnoy/TV/main/Doballkub.json",
       image: "https://s3.ดูบอลดูหนัง.com/global/favicon.ico",
       groups
     };
