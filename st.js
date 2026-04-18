@@ -275,7 +275,7 @@ return {
   author: `Update@${dateText}`,
   info: `sportsonline.vc Update@${dateText}`,
   image: HEADER_IMAGE,
-  url: "https://raw.githubusercontent.com/nongakka/TV/main/playlist/sportsonline.json",
+  url: "https://raw.githubusercontent.com/Hssmnoy/TV/main/playlist/sportsonline.json",
   groups: Object.values(groups)
 };
 }
