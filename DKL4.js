@@ -7,7 +7,7 @@ const LOGO = "https://liveplayback.net/uploads/"
 
 const CDN = [
 
-"https://ec2.stream.liveplayback.net/dookeela/",
+"https://dij0k9i5q0gvn.cloudfront.net/",
 
   
 ]
