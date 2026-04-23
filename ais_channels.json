@@ -1,4 +1,9 @@
-[
+{
+  "name": "AIS",
+  "author": "update 18/4/2569",
+  "image": "https://aisplay.ais.co.th/portal/static/img/ais_play.e9f424a5.png",
+  "url": "https://raw.githubusercontent.com/Hssmnoy/TV/main/ais_playlist_web.json",
+  "stations": [
   {
     "name": "NBT HD",
     "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE//channelicon/0001.png",
@@ -758,5 +763,6 @@
     "referer": "https://ais-vidnt.com/",
     "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 Maxthon/5.3.8.2000",
     "playInNatPlayer": "true"
-  }
-]
+    }
+  ]
+}
