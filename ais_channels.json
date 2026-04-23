@@ -2,7 +2,8 @@
   "name": "AIS",
   "author": "update 18/4/2569",
   "image": "https://aisplay.ais.co.th/portal/static/img/ais_play.e9f424a5.png",
-  "url": "https://raw.githubusercontent.com/Hssmnoy/TV/main/ais_playlist_web.json",
+  "imageScale": "fitStart",
+  "url": "https://raw.githubusercontent.com/Hssmnoy/TV/main/ais_playlist.json",
   "stations": [
   {
     "name": "NBT HD",

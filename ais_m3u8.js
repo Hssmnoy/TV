@@ -66,6 +66,13 @@ function updateStations(data, params) {
       return ch;
     }
 
+    // =========================
+    // ADD IMAGE SCALE DEFAULT
+    // =========================
+    if (!ch.imageScale) {
+      ch.imageScale = "fitStart";
+    }
+
     if (ch.url && params) {
       const base = ch.url.split("?")[0];
       ch.url = `${base}?${params}`;
@@ -84,7 +91,7 @@ function generateM3U(data) {
   let m3u = "#EXTM3U\n";
 
   data.stations.forEach((ch) => {
-    m3u += `#EXTINF:-1 group-title="AIS",${ch.name}\n`;
+    m3u += `#EXTINF:-1 tvg-id="${ch.mid || ""}" tvg-logo="${ch.image || ""}" group-title="AIS",${ch.name}\n`;
     m3u += `#EXTVLCOPT:http-referrer=${ch.referer || ""}\n`;
     m3u += `${ch.url}\n`;
   });
