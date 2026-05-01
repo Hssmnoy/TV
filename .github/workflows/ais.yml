@@ -28,7 +28,7 @@ jobs:
         run: npx playwright install --with-deps
       
       - name: ▶️ Run script
-        run: node ais.js
+        run: node ais_m3u8.js
 
       - name: 💾 Commit & Push
         run: |
