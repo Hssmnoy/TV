@@ -1,188 +1,14 @@
 {
   "name": "Doballkub.com",
-  "author": "Update@01/05/2026",
-  "info": "Doballkub Update@01/05/2026",
+  "author": "Update@02/05/2026",
+  "info": "Doballkub Update@02/05/2026",
   "url": "https://raw.githubusercontent.com/Hssmnoy/TV/main/Doballkub.json",
   "image": "https://s3.ดูบอลดูหนัง.com/global/favicon.ico",
   "groups": [
     {
-      "name": "วันที่ 01/05/26",
-      "image": "https://s3.ดูบอลดูหนัง.com/global/favicon.ico",
-      "stations": [
-        {
-          "name": "14:30 ไทย vs เวียดนาม",
-          "info": "เอเอฟซี ยู17 เอเชียน คัพ - วูเมน",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-afc-u17-asian-cup-women-Xs0xoNghBGGVS2Io.png",
-          "url": "https://www.doballkub.com/live/watch/56427",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "19:00 เมืองทอง ยูไนเต็ด vs บีจี ปทุม ยูไนเต็ด",
-          "info": "ไทยลีก1",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-thai-league-1-rZD2EZf1dpFGTvV0.png",
-          "url": "https://www.doballkub.com/live/watch/55636",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "20:00 คาร์ราเรเซ่ vs เซเซน่า",
-          "info": "กัลโช่ เซเรีย บี",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-b-eCRu7GeZN48Yg0AB.png",
-          "url": "https://www.doballkub.com/live/watch/56221",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "20:00 ซามพ์โดเรีย vs เซาท์ไทรอล",
-          "info": "กัลโช่ เซเรีย บี",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-b-eCRu7GeZN48Yg0AB.png",
-          "url": "https://www.doballkub.com/live/watch/56213",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "20:00 บารี vs เวอร์ตัส เอนเทลลา",
-          "info": "กัลโช่ เซเรีย บี",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-b-eCRu7GeZN48Yg0AB.png",
-          "url": "https://www.doballkub.com/live/watch/56214",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "20:00 ปาแลร์โม vs คาตันซาโร",
-          "info": "กัลโช่ เซเรีย บี",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-b-eCRu7GeZN48Yg0AB.png",
-          "url": "https://www.doballkub.com/live/watch/56216",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "20:00 โมเดน่า vs เรจเจียน่า",
-          "info": "กัลโช่ เซเรีย บี",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-b-eCRu7GeZN48Yg0AB.png",
-          "url": "https://www.doballkub.com/live/watch/56219",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "20:00 ฮัมบูร์ก เอสวี (ญ) vs ยูเนียน เบอร์ลิน (ญ)",
-          "info": "ฟเราเอิน บุนเดสลีกา",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-frauen-bundesliga-3jtQ6rEtVmzzzlJO.png",
-          "url": "https://www.doballkub.com/live/watch/56210",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "21:30 เซ็ปเทมฟริ โซเฟีย vs มอนทาน่า",
-          "info": "เฟิร์ส ลีก บัลแกเรีย",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-first-league-GlJyX2R1YyDa8ggo.png",
-          "url": "https://www.doballkub.com/live/watch/56242",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "21:30 มาริติโม่ vs เลอิโซเอส",
-          "info": "เซกุนดา ลีกา โปรตุเกส",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-segunda-liga-GI3R4Jvsuy3FZS8r.png",
-          "url": "https://www.doballkub.com/live/watch/56069",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "22:30 คราวน์ คีลซ์ vs ปิอาสต์ กลิวิเซ",
-          "info": "เอ็คสตราคลาซ่า โปแลนด์",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-ekstraklasa-zbDHMUepk8ZDzBa4.png",
-          "url": "https://www.doballkub.com/live/watch/56354",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        }
-      ]
-    },
-    {
       "name": "วันที่ 02/05/26",
       "image": "https://s3.ดูบอลดูหนัง.com/global/favicon.ico",
       "stations": [
-        {
-          "name": "00:00 โดบรูจา vs โลโคโมทีฟ โซเฟีย",
-          "info": "เฟิร์ส ลีก บัลแกเรีย",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-first-league-GlJyX2R1YyDa8ggo.png",
-          "url": "https://www.doballkub.com/live/watch/56243",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "00:00 บรอนด์บี้ vs เอฟซี นอร์ดสเยลลันด์",
-          "info": "ซูเปอร์ลีกา เดนมาร์ก",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-superliga-jEFFlSacKVNQAkZ8.png",
-          "url": "https://www.doballkub.com/live/watch/56241",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "01:00 วาลไวค์ vs โรดา",
-          "info": "เอเรดิวิซี",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-eredivisie-GWWKlhumhPRUgsSD.png",
-          "url": "https://www.doballkub.com/live/watch/56230",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "01:30 เลเกีย วอร์ซอว์ vs วิดเซว ลอดซ์",
-          "info": "เอ็คสตราคลาซ่า โปแลนด์",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-ekstraklasa-zbDHMUepk8ZDzBa4.png",
-          "url": "https://www.doballkub.com/live/watch/56355",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "01:45 ปิซา vs เลชเช่",
-          "info": "กัลโช่ เซเรีย อา",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-a-XG4NOopa20yJ3yR9.png",
-          "url": "https://www.doballkub.com/live/watch/56226",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "01:45 ลิฟวิงสตัน vs อเบอร์ดีน",
-          "info": "สก็อตติช พรีเมียร์ชิพ",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-premiership-7Dy3VJ1b9cDL1lon.png",
-          "url": "https://www.doballkub.com/live/watch/56361",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 จิโรน่า vs มายอร์ก้า",
-          "info": "ลาลีกา",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-la-liga-7ViRDSkUyBMbAalK.png",
-          "url": "https://www.doballkub.com/live/watch/56223",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:00 ลีดส์ ยูไนเต็ต vs เบิร์นลีย์",
-          "info": "พรีเมียร์ลีก อังกฤษ",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-premier-league-hixUloiedY0CPIar.png",
-          "url": "https://www.doballkub.com/live/watch/56156",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "02:30 สปอร์ติ้ง ซีพี บี vs เบนฟิก้า บี",
-          "info": "เซกุนดา ลีกา โปรตุเกส",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-segunda-liga-GI3R4Jvsuy3FZS8r.png",
-          "url": "https://www.doballkub.com/live/watch/56364",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
-        {
-          "name": "06:30 ยอร์ค ยูไนเต็ด vs แอตเลติโก้ ออตตาวา",
-          "info": "แคนาเดียน พรีเมียร์ ลีก",
-          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-canadian-premier-league-dcWCgfXRcuFHu2PE.png",
-          "url": "https://www.doballkub.com/live/watch/56365",
-          "referer": "https://www.doballkub.com/",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-        },
         {
           "name": "10:55 ฟาเจียโน โอคายามา vs ซานเฟรชเช่ ฮิโรชิม่า",
           "info": "เจลีก",
@@ -504,6 +330,22 @@
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         },
         {
+          "name": "21:30 นาซิอองนาล vs เอวีเอส",
+          "info": "พรีมีร่า ลีกา โปรตุเกส",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-primeira-liga-VNPBDDl0NuB3Vo1c.png",
+          "url": "https://www.doballkub.com/live/watch/56440",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "21:30 อารัวค่า vs ซานตาคลาร่า",
+          "info": "พรีมีร่า ลีกา โปรตุเกส",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-primeira-liga-VNPBDDl0NuB3Vo1c.png",
+          "url": "https://www.doballkub.com/live/watch/56441",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
           "name": "22:00 ปารีส แซงต์ แชร์กแมง vs ลอริยองต์",
           "info": "ลีกเอิง",
           "image": "https://s3-1.ดูบอลดูหนัง.com/global/sport_assets/leagues/16702.jpeg",
@@ -516,6 +358,22 @@
           "info": "กัลโช่ เซเรีย อา",
           "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-a-XG4NOopa20yJ3yR9.png",
           "url": "https://www.doballkub.com/live/watch/56337",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "23:15 ชาร์เลอรัว vs เคงก์",
+          "info": "จูปีแลร์ โปร ลีก",
+          "image": "https://s3-1.ดูบอลดูหนัง.com/global/sport_assets/leagues/16869.png",
+          "url": "https://www.doballkub.com/live/watch/56458",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "23:30 เซบีย่า (ญ) vs เรอัลมาดริด",
+          "info": "ปริเมรา ดีบีซีออน เฟเมนินา",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-primera-divisin-femenina-AGbVhlghQUAyAyPt.png",
+          "url": "https://www.doballkub.com/live/watch/56457",
           "referer": "https://www.doballkub.com/",
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         },
@@ -549,6 +407,14 @@
       "name": "วันที่ 03/05/26",
       "image": "https://s3.ดูบอลดูหนัง.com/global/favicon.ico",
       "stations": [
+        {
+          "name": "00:00 ฟามาลิเคา vs เบนฟิก้า",
+          "info": "พรีมีร่า ลีกา โปรตุเกส",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-primeira-liga-VNPBDDl0NuB3Vo1c.png",
+          "url": "https://www.doballkub.com/live/watch/56459",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
         {
           "name": "00:00 เมตซ์ vs โมนาโก",
           "info": "ลีกเอิง",
@@ -882,6 +748,108 @@
           "info": "ลาลีกา",
           "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-la-liga-7ViRDSkUyBMbAalK.png",
           "url": "https://www.doballkub.com/live/watch/56343",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        }
+      ]
+    },
+    {
+      "name": "วันที่ 04/05/26",
+      "image": "https://s3.ดูบอลดูหนัง.com/global/favicon.ico",
+      "stations": [
+        {
+          "name": "00:30 เอสซี ไฟรบวร์ก vs วีเอฟแอล โวล์ฟสบวร์ก",
+          "info": "บุนเดสลีกา",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-bundesliga-GvZtZb7DryZGV0aO.png",
+          "url": "https://www.doballkub.com/live/watch/56290",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "01:00 อัล-กาดิซิยะห์ vs อัล-นาสเซอร์",
+          "info": "โปรลีก ซาอุดีอาระเบีย",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-pro-league-EJRzkujkiKwu7bhP.png",
+          "url": "https://www.doballkub.com/live/watch/56308",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "01:00 แอสตัน วิลล่า vs ท็อตแน่ม ฮ็อทสเปอร์",
+          "info": "พรีเมียร์ลีก อังกฤษ",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-premier-league-hixUloiedY0CPIar.png",
+          "url": "https://www.doballkub.com/live/watch/56163",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "01:45 ลียง vs แรนส์",
+          "info": "ลีกเอิง",
+          "image": "https://s3-1.ดูบอลดูหนัง.com/global/sport_assets/leagues/16702.jpeg",
+          "url": "https://www.doballkub.com/live/watch/56174",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "01:45 อินเตอร์ vs ปาร์มา",
+          "info": "กัลโช่ เซเรีย อา",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-a-XG4NOopa20yJ3yR9.png",
+          "url": "https://www.doballkub.com/live/watch/56287",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "02:00 เซาเปาโล vs บาเอีย",
+          "info": "กัลโช่ เซเรียอา บราซิล",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-a-p5llHkWS5ztCwor5.png",
+          "url": "https://www.doballkub.com/live/watch/56292",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "02:00 เอสปันญอล vs เรอัล มาดริด",
+          "info": "ลาลีกา",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-la-liga-7ViRDSkUyBMbAalK.png",
+          "url": "https://www.doballkub.com/live/watch/56284",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "04:30 อินเตอร์นาซิโอนัล vs ฟลูมิเนนเซ่",
+          "info": "กัลโช่ เซเรียอา บราซิล",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-a-p5llHkWS5ztCwor5.png",
+          "url": "https://www.doballkub.com/live/watch/56293",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "06:30 มิราสซอล vs โครินเธียนส์",
+          "info": "กัลโช่ เซเรียอา บราซิล",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-a-p5llHkWS5ztCwor5.png",
+          "url": "https://www.doballkub.com/live/watch/56294",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "21:00 เชลซี vs น็อตติ้งแฮม ฟอเรสต์",
+          "info": "พรีเมียร์ลีก อังกฤษ",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-premier-league-hixUloiedY0CPIar.png",
+          "url": "https://www.doballkub.com/live/watch/56164",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "23:30 เครโมเนเซ vs ลาซิโอ",
+          "info": "กัลโช่ เซเรีย อา",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-serie-a-XG4NOopa20yJ3yR9.png",
+          "url": "https://www.doballkub.com/live/watch/56288",
+          "referer": "https://www.doballkub.com/",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+        },
+        {
+          "name": "23:30 ฮาร์ทออฟ มิดโลเธียน vs เรนเจอร์ส",
+          "info": "สก็อตติช พรีเมียร์ชิพ",
+          "image": "https://cdn.cfdcdf.cfd/images/soccer/leagues/bghr-premiership-7Dy3VJ1b9cDL1lon.png",
+          "url": "https://www.doballkub.com/live/watch/56299",
           "referer": "https://www.doballkub.com/",
           "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
         }
